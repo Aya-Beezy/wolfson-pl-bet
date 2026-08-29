@@ -168,9 +168,7 @@
   .pl .ac{font-size:11px;color:var(--dim);font-variant-numeric:tabular-nums}
   .pl .p{font-size:12px;font-weight:800;width:30px;text-align:right;font-variant-numeric:tabular-nums}
   .st-exact .tm,.st-exact .p,.st-leading .tm,.st-leading .p,.st-hit .tm,.st-hit .p{color:var(--green)}
-  .st-top4-near .tm,.st-top4-near .p{color:var(--amber)}
-  .st-penalty .tm,.st-penalty .p{color:var(--red)}
-  .st-in-drop-zone .tm{color:var(--blue)}
+  .st-near .tm,.st-near .p{color:var(--amber)}
   .st-miss .tm,.st-behind .tm,.st-missed .tm,.st-pending .tm{color:var(--mute)}
   .st-miss .p,.st-behind .p,.st-missed .p,.st-pending .p{color:var(--dim)}
 
@@ -326,10 +324,11 @@ function picks(d){
 
 function rules(d){
   const labels = {
-    result_exact_top6:"Top-6 team in the exact right slot",
-    top4_not_exact:"Top-4 team finishes top 4, wrong slot",
-    penalty_top4_outside_top6:"Top-4 pick finishes outside the top 6",
-    relegation_exact:"Relegated team in the exact right slot",
+    champion_exact:"Champion called correctly",
+    top6_exact:"Exact position, 2nd to 6th",
+    top6_wrong_slot:"Your top-6 club finishes top 6, wrong slot",
+    relegation_exact:"Relegated club in the exact right slot",
+    relegation_wrong_slot:"Relegated club, wrong slot",
     top_scorer:"Top goalscorer", top_assists:"Top assist maker", manager_sacked:"First manager sacked"
   };
   const s = el(`<section id="rules"><h2>Scoring</h2><div class="rules"></div></section>`);

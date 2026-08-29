@@ -31,16 +31,34 @@ source of truth for the Golden Boot and top-assists categories.
 
 | Category | Points |
 |---|---|
-| Top-6 team in the exact right slot | +5 |
-| Top-4 team finishes in the top 4 but the wrong slot | +2 |
-| Top-4 pick finishes outside the top 6 | **−5** |
-| Relegated team in the exact right slot | +5 |
-| Top goalscorer | +10 |
-| Top assist maker | +5 |
-| First manager sacked | +20 |
+| Champion called correctly (1st) | +2 |
+| Exact position, 2nd to 6th | +9 |
+| Your top-6 club finishes in the top 6, wrong slot | +1 |
+| Relegated club in the exact right slot | +6 |
+| Relegated club relegated, wrong slot | +3 |
+| Top goalscorer | +2 |
+| Top assist maker | +4 |
+| First manager sacked | +7 |
 
-Relegation picks only score on an exact positional match — finishing in the bottom three
-in the wrong order is worth nothing.
+There are **no penalties**. The gradient already pays nothing for a miss.
+
+Points are set in proportion to how hard each call actually is, anchored to the
+easiest event on the board. The Golden Boot favourite runs at roughly 55%, so it
+is the baseline; every other line is priced at its difficulty relative to that.
+An exact league position (2nd to 6th) is the hardest repeatable call in the game
+at roughly 12-14%, which is why it pays most. Naming the champion is a ~45% call
+and pays accordingly.
+
+## House rules
+
+1. **A manager pick follows the man, not the job.** If your manager moves clubs,
+   your pick moves with him to whichever Premier League club employs him.
+2. **"Sacked" means the first Premier League manager to leave his post in-season
+   for any reason** - sacked, resigned, mutual consent, or poached.
+3. **If no manager leaves all season, the category is void** for everyone.
+4. Goals and assists settle on the official Fantasy Premier League data. On a
+   dead heat, everyone who picked any of the joint leaders scores.
+5. Table positions settle on the final-day table.
 
 ## When the first manager gets sacked
 

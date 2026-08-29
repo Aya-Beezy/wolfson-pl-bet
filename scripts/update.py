@@ -114,11 +114,11 @@ def score_player(name, pick, table, rules, scorer_ids, assist_ids, sacked):
         team = resolve_team(raw, valid)
         actual = pos_of[team]
         if actual == i:
-            pts, status = rules["result_exact_top6"], "exact"
-        elif i <= 4 and actual <= 4:
-            pts, status = rules["top4_not_exact"], "top4-near"
-        elif i <= 4 and actual > 6:
-            pts, status = rules["penalty_top4_outside_top6"], "penalty"
+            # the title is a ~45% call; slots 2-6 are ~12-14% and pay accordingly
+            pts = rules["champion_exact"] if i == 1 else rules["top6_exact"]
+            status = "exact"
+        elif actual <= 6:
+            pts, status = rules["top6_wrong_slot"], "near"
         else:
             pts, status = 0, "miss"
         top6_total += pts
@@ -130,8 +130,13 @@ def score_player(name, pick, table, rules, scorer_ids, assist_ids, sacked):
     for i, raw in enumerate(pick["relegation"], start=18):
         team = resolve_team(raw, valid)
         actual = pos_of[team]
-        pts = rules["relegation_exact"] if actual == i else 0
-        status = "exact" if pts else ("in-drop-zone" if actual >= 18 else "miss")
+        if actual == i:
+            pts, status = rules["relegation_exact"], "exact"
+        elif actual >= 18:
+            # naming a relegated club is the skill; the exact slot is close to a coin toss
+            pts, status = rules["relegation_wrong_slot"], "near"
+        else:
+            pts, status = 0, "miss"
         rel_total += pts
         lines.append({"category": "relegation", "slot": i, "pick": team,
                       "actual": actual, "points": pts, "status": status})
