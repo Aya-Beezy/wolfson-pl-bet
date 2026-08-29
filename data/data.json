@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-29T12:55:31Z",
+ "generated_at": "2026-08-29T13:07:36Z",
  "season": "2026/27",
  "gameweeks_played": 1,
  "next_gameweek": "Gameweek 2",
@@ -411,10 +411,10 @@
    "leading": false
   },
   {
-   "id": 125,
-   "name": "Georginio",
-   "full_name": "Georginio Rutter",
-   "team": "Brighton",
+   "id": 367,
+   "name": "Gakpo",
+   "full_name": "Cody Gakpo",
+   "team": "Liverpool",
    "value": 1,
    "leading": false
   }
