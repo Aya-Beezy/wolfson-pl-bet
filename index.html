@@ -211,7 +211,12 @@
 
 <script>
 const CAT = {top6:"Top 6", relegation:"Relegation", top_scorer:"Top scorer", top_assists:"Top assists", manager_sacked:"Manager"};
-const el = (h)=>{const d=document.createElement("div");d.innerHTML=h.trim();return d.firstElementChild};
+const el = (h)=>{
+  const d=document.createElement("div"); d.innerHTML=h.trim();
+  const n=d.firstElementChild;
+  if(!n) throw new Error("el(): nothing parsed - table rows must be built in table context, not via el()");
+  return n;
+};
 const esc = (s)=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const sign = (n)=> n>0?`+${n}`:`${n}`;
 
@@ -258,16 +263,18 @@ function leagueTable(d){
     <div class="panel"><div class="scroll"><table>
       <thead><tr><th>#</th><th>Team</th><th>Pl</th><th>W</th><th>D</th><th>L</th><th>GD</th><th>Pts</th></tr></thead>
       <tbody></tbody></table></div></div></section>`);
+  // Rows must be parsed in table context: a <tr> assigned into a <div> is
+  // discarded by the HTML parser, which silently strips the whole row.
   const tb = s.querySelector("tbody");
-  d.table.forEach(r=>{
+  tb.innerHTML = d.table.map(r=>{
     const cls = r.pos<=6 ? "eu" : r.pos>=18 ? "rel" : "";
     const tag = backers[r.team]?.length ? `<span class="owner">${esc(backers[r.team].join(" · "))}</span>` : "";
-    tb.append(el(`<tr class="${cls}">
+    return `<tr class="${cls}">
       <td class="tpos">${r.pos}</td>
       <td class="tteam">${esc(r.team)}${tag}</td>
       <td>${r.played}</td><td>${r.won}</td><td>${r.drawn}</td><td>${r.lost}</td>
-      <td>${r.gd>0?"+":""}${r.gd}</td><td class="tpts">${r.pts}</td></tr>`));
-  });
+      <td>${r.gd>0?"+":""}${r.gd}</td><td class="tpts">${r.pts}</td></tr>`;
+  }).join("");
   return s;
 }
 
