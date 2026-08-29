@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-29T15:56:31Z",
+ "generated_at": "2026-08-29T20:10:51Z",
  "season": "2026/27",
  "gameweeks_played": 1,
  "next_gameweek": "Gameweek 2",
@@ -265,6 +265,14 @@
    "leading": true
   },
   {
+   "id": 454,
+   "name": "Elanga",
+   "full_name": "Anthony Elanga",
+   "team": "Newcastle",
+   "value": 2,
+   "leading": true
+  },
+  {
    "id": 411,
    "name": "Haaland",
    "full_name": "Erling Haaland",
@@ -325,14 +333,6 @@
    "name": "Dewsbury-Hall",
    "full_name": "Kiernan Dewsbury-Hall",
    "team": "Everton",
-   "value": 1,
-   "leading": false
-  },
-  {
-   "id": 454,
-   "name": "Elanga",
-   "full_name": "Anthony Elanga",
-   "team": "Newcastle",
    "value": 1,
    "leading": false
   }
@@ -411,10 +411,10 @@
    "leading": false
   },
   {
-   "id": 591,
-   "name": "Enciso",
-   "full_name": "Julio Enciso",
-   "team": "Ipswich Town",
+   "id": 593,
+   "name": "Dedić",
+   "full_name": "Amar Dedic",
+   "team": "Newcastle",
    "value": 1,
    "leading": false
   }
