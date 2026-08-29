@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-29T13:07:36Z",
+ "generated_at": "2026-08-29T15:56:31Z",
  "season": "2026/27",
  "gameweeks_played": 1,
  "next_gameweek": "Gameweek 2",
@@ -355,6 +355,14 @@
    "leading": true
   },
   {
+   "id": 79,
+   "name": "Evanilson",
+   "full_name": "Francisco Evanilson de Lima Barbosa",
+   "team": "Bournemouth",
+   "value": 2,
+   "leading": true
+  },
+  {
    "id": 398,
    "name": "Foden",
    "full_name": "Phil Foden",
@@ -379,6 +387,14 @@
    "leading": false
   },
   {
+   "id": 286,
+   "name": "Belloumi",
+   "full_name": "Mohamed Belloumi",
+   "team": "Hull City",
+   "value": 1,
+   "leading": false
+  },
+  {
    "id": 8,
    "name": "Calafiori",
    "full_name": "Riccardo Calafiori",
@@ -399,22 +415,6 @@
    "name": "Enciso",
    "full_name": "Julio Enciso",
    "team": "Ipswich Town",
-   "value": 1,
-   "leading": false
-  },
-  {
-   "id": 79,
-   "name": "Evanilson",
-   "full_name": "Francisco Evanilson de Lima Barbosa",
-   "team": "Bournemouth",
-   "value": 1,
-   "leading": false
-  },
-  {
-   "id": 367,
-   "name": "Gakpo",
-   "full_name": "Cody Gakpo",
-   "team": "Liverpool",
    "value": 1,
    "leading": false
   }
