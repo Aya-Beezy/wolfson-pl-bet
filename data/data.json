@@ -1,16 +1,17 @@
 {
- "generated_at": "2026-08-29T11:57:32Z",
+ "generated_at": "2026-08-29T12:55:18Z",
  "season": "2026/27",
  "gameweeks_played": 1,
  "next_gameweek": "Gameweek 2",
  "rules": {
-  "result_exact_top6": 5,
-  "top4_not_exact": 2,
-  "penalty_top4_outside_top6": -5,
-  "relegation_exact": 5,
-  "top_scorer": 10,
-  "top_assists": 5,
-  "manager_sacked": 20
+  "champion_exact": 2,
+  "top6_exact": 9,
+  "top6_wrong_slot": 1,
+  "relegation_exact": 6,
+  "relegation_wrong_slot": 3,
+  "top_scorer": 2,
+  "top_assists": 4,
+  "manager_sacked": 7
  },
  "table": [
   {
@@ -424,12 +425,12 @@
  },
  "leaderboard": [
   {
-   "player": "Tola",
+   "player": "Akin",
    "breakdown": {
-    "top6": -8,
-    "relegation": 5,
-    "top_scorer": 10,
-    "top_assists": 5,
+    "top6": 10,
+    "relegation": 3,
+    "top_scorer": 2,
+    "top_assists": 0,
     "manager_sacked": 0
    },
    "lines": [
@@ -438,32 +439,136 @@
      "slot": 1,
      "pick": "Arsenal",
      "actual": 2,
+     "points": 1,
+     "status": "near"
+    },
+    {
+     "category": "top6",
+     "slot": 2,
+     "pick": "Man Utd",
+     "actual": 17,
+     "points": 0,
+     "status": "miss"
+    },
+    {
+     "category": "top6",
+     "slot": 3,
+     "pick": "Liverpool",
+     "actual": 10,
+     "points": 0,
+     "status": "miss"
+    },
+    {
+     "category": "top6",
+     "slot": 4,
+     "pick": "Man City",
+     "actual": 8,
+     "points": 0,
+     "status": "miss"
+    },
+    {
+     "category": "top6",
+     "slot": 5,
+     "pick": "Spurs",
+     "actual": 19,
+     "points": 0,
+     "status": "miss"
+    },
+    {
+     "category": "top6",
+     "slot": 6,
+     "pick": "Chelsea",
+     "actual": 6,
+     "points": 9,
+     "status": "exact"
+    },
+    {
+     "category": "relegation",
+     "slot": 18,
+     "pick": "Ipswich Town",
+     "actual": 7,
+     "points": 0,
+     "status": "miss"
+    },
+    {
+     "category": "relegation",
+     "slot": 19,
+     "pick": "Hull City",
+     "actual": 5,
+     "points": 0,
+     "status": "miss"
+    },
+    {
+     "category": "relegation",
+     "slot": 20,
+     "pick": "Coventry City",
+     "actual": 18,
+     "points": 3,
+     "status": "near"
+    },
+    {
+     "category": "top_scorer",
+     "pick": "Erling Haaland",
      "points": 2,
-     "status": "top4-near"
+     "status": "leading"
+    },
+    {
+     "category": "top_assists",
+     "pick": "Christos Tzolis",
+     "points": 0,
+     "status": "behind"
+    },
+    {
+     "category": "manager_sacked",
+     "pick": "Jakirovic",
+     "points": 0,
+     "status": "pending"
+    }
+   ],
+   "total": 15,
+   "rank": 1
+  },
+  {
+   "player": "Tola",
+   "breakdown": {
+    "top6": 2,
+    "relegation": 6,
+    "top_scorer": 2,
+    "top_assists": 4,
+    "manager_sacked": 0
+   },
+   "lines": [
+    {
+     "category": "top6",
+     "slot": 1,
+     "pick": "Arsenal",
+     "actual": 2,
+     "points": 1,
+     "status": "near"
     },
     {
      "category": "top6",
      "slot": 2,
      "pick": "Man City",
      "actual": 8,
-     "points": -5,
-     "status": "penalty"
+     "points": 0,
+     "status": "miss"
     },
     {
      "category": "top6",
      "slot": 3,
      "pick": "Man Utd",
      "actual": 17,
-     "points": -5,
-     "status": "penalty"
+     "points": 0,
+     "status": "miss"
     },
     {
      "category": "top6",
      "slot": 4,
      "pick": "Chelsea",
      "actual": 6,
-     "points": 0,
-     "status": "miss"
+     "points": 1,
+     "status": "near"
     },
     {
      "category": "top6",
@@ -486,7 +591,7 @@
      "slot": 18,
      "pick": "Coventry City",
      "actual": 18,
-     "points": 5,
+     "points": 6,
      "status": "exact"
     },
     {
@@ -508,13 +613,13 @@
     {
      "category": "top_scorer",
      "pick": "Erling Haaland",
-     "points": 10,
+     "points": 2,
      "status": "leading"
     },
     {
      "category": "top_assists",
      "pick": "Rayan Cherki",
-     "points": 5,
+     "points": 4,
      "status": "leading"
     },
     {
@@ -524,16 +629,16 @@
      "status": "pending"
     }
    ],
-   "total": 12,
-   "rank": 1
+   "total": 14,
+   "rank": 2
   },
   {
    "player": "Majid",
    "breakdown": {
-    "top6": -8,
+    "top6": 2,
     "relegation": 0,
-    "top_scorer": 10,
-    "top_assists": 5,
+    "top_scorer": 2,
+    "top_assists": 4,
     "manager_sacked": 0
    },
    "lines": [
@@ -542,32 +647,32 @@
      "slot": 1,
      "pick": "Arsenal",
      "actual": 2,
-     "points": 2,
-     "status": "top4-near"
+     "points": 1,
+     "status": "near"
     },
     {
      "category": "top6",
      "slot": 2,
      "pick": "Chelsea",
      "actual": 6,
-     "points": 0,
-     "status": "miss"
+     "points": 1,
+     "status": "near"
     },
     {
      "category": "top6",
      "slot": 3,
      "pick": "Man Utd",
      "actual": 17,
-     "points": -5,
-     "status": "penalty"
+     "points": 0,
+     "status": "miss"
     },
     {
      "category": "top6",
      "slot": 4,
      "pick": "Liverpool",
      "actual": 10,
-     "points": -5,
-     "status": "penalty"
+     "points": 0,
+     "status": "miss"
     },
     {
      "category": "top6",
@@ -612,13 +717,13 @@
     {
      "category": "top_scorer",
      "pick": "Erling Haaland",
-     "points": 10,
+     "points": 2,
      "status": "leading"
     },
     {
      "category": "top_assists",
      "pick": "Rayan Cherki",
-     "points": 5,
+     "points": 4,
      "status": "leading"
     },
     {
@@ -628,119 +733,15 @@
      "status": "pending"
     }
    ],
-   "total": 7,
-   "rank": 2
-  },
-  {
-   "player": "Akin",
-   "breakdown": {
-    "top6": -8,
-    "relegation": 0,
-    "top_scorer": 10,
-    "top_assists": 0,
-    "manager_sacked": 0
-   },
-   "lines": [
-    {
-     "category": "top6",
-     "slot": 1,
-     "pick": "Arsenal",
-     "actual": 2,
-     "points": 2,
-     "status": "top4-near"
-    },
-    {
-     "category": "top6",
-     "slot": 2,
-     "pick": "Man Utd",
-     "actual": 17,
-     "points": -5,
-     "status": "penalty"
-    },
-    {
-     "category": "top6",
-     "slot": 3,
-     "pick": "Liverpool",
-     "actual": 10,
-     "points": -5,
-     "status": "penalty"
-    },
-    {
-     "category": "top6",
-     "slot": 4,
-     "pick": "Man City",
-     "actual": 8,
-     "points": -5,
-     "status": "penalty"
-    },
-    {
-     "category": "top6",
-     "slot": 5,
-     "pick": "Spurs",
-     "actual": 19,
-     "points": 0,
-     "status": "miss"
-    },
-    {
-     "category": "top6",
-     "slot": 6,
-     "pick": "Chelsea",
-     "actual": 6,
-     "points": 5,
-     "status": "exact"
-    },
-    {
-     "category": "relegation",
-     "slot": 18,
-     "pick": "Ipswich Town",
-     "actual": 7,
-     "points": 0,
-     "status": "miss"
-    },
-    {
-     "category": "relegation",
-     "slot": 19,
-     "pick": "Hull City",
-     "actual": 5,
-     "points": 0,
-     "status": "miss"
-    },
-    {
-     "category": "relegation",
-     "slot": 20,
-     "pick": "Coventry City",
-     "actual": 18,
-     "points": 0,
-     "status": "in-drop-zone"
-    },
-    {
-     "category": "top_scorer",
-     "pick": "Erling Haaland",
-     "points": 10,
-     "status": "leading"
-    },
-    {
-     "category": "top_assists",
-     "pick": "Christos Tzolis",
-     "points": 0,
-     "status": "behind"
-    },
-    {
-     "category": "manager_sacked",
-     "pick": "Jakirovic",
-     "points": 0,
-     "status": "pending"
-    }
-   ],
-   "total": 2,
+   "total": 8,
    "rank": 3
   },
   {
    "player": "Wax",
    "breakdown": {
-    "top6": -8,
+    "top6": 2,
     "relegation": 0,
-    "top_scorer": 10,
+    "top_scorer": 2,
     "top_assists": 0,
     "manager_sacked": 0
    },
@@ -750,32 +751,32 @@
      "slot": 1,
      "pick": "Arsenal",
      "actual": 2,
-     "points": 2,
-     "status": "top4-near"
+     "points": 1,
+     "status": "near"
     },
     {
      "category": "top6",
      "slot": 2,
      "pick": "Chelsea",
      "actual": 6,
-     "points": 0,
-     "status": "miss"
+     "points": 1,
+     "status": "near"
     },
     {
      "category": "top6",
      "slot": 3,
      "pick": "Liverpool",
      "actual": 10,
-     "points": -5,
-     "status": "penalty"
+     "points": 0,
+     "status": "miss"
     },
     {
      "category": "top6",
      "slot": 4,
      "pick": "Man City",
      "actual": 8,
-     "points": -5,
-     "status": "penalty"
+     "points": 0,
+     "status": "miss"
     },
     {
      "category": "top6",
@@ -820,7 +821,7 @@
     {
      "category": "top_scorer",
      "pick": "Erling Haaland",
-     "points": 10,
+     "points": 2,
      "status": "leading"
     },
     {
@@ -836,13 +837,13 @@
      "status": "pending"
     }
    ],
-   "total": 2,
-   "rank": 3
+   "total": 4,
+   "rank": 4
   },
   {
    "player": "Bharat",
    "breakdown": {
-    "top6": -8,
+    "top6": 2,
     "relegation": 0,
     "top_scorer": 0,
     "top_assists": 0,
@@ -854,32 +855,32 @@
      "slot": 1,
      "pick": "Arsenal",
      "actual": 2,
-     "points": 2,
-     "status": "top4-near"
+     "points": 1,
+     "status": "near"
     },
     {
      "category": "top6",
      "slot": 2,
      "pick": "Chelsea",
      "actual": 6,
-     "points": 0,
-     "status": "miss"
+     "points": 1,
+     "status": "near"
     },
     {
      "category": "top6",
      "slot": 3,
      "pick": "Man Utd",
      "actual": 17,
-     "points": -5,
-     "status": "penalty"
+     "points": 0,
+     "status": "miss"
     },
     {
      "category": "top6",
      "slot": 4,
      "pick": "Man City",
      "actual": 8,
-     "points": -5,
-     "status": "penalty"
+     "points": 0,
+     "status": "miss"
     },
     {
      "category": "top6",
@@ -940,7 +941,7 @@
      "status": "pending"
     }
    ],
-   "total": -8,
+   "total": 2,
    "rank": 5
   }
  ],
