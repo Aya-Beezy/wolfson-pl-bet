@@ -36,8 +36,8 @@ source of truth for the Golden Boot and top-assists categories.
 | Top-4 pick finishes outside the top 6 | **−5** |
 | Relegated team in the exact right slot | +5 |
 | Top goalscorer | +10 |
-| Top assist maker | +10 |
-| First manager sacked | +10 |
+| Top assist maker | +5 |
+| First manager sacked | +20 |
 
 Relegation picks only score on an exact positional match — finishing in the bottom three
 in the wrong order is worth nothing.

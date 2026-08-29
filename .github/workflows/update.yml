@@ -35,8 +35,23 @@ jobs:
           git config user.name "wolfson-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/data.json
-          git diff --staged --quiet || git commit -m "Refresh leaderboard $(date -u +'%Y-%m-%d %H:%M UTC')"
-          git push
+          if git diff --staged --quiet; then
+            echo "No change to commit."
+            exit 0
+          fi
+          git commit -m "Refresh leaderboard $(date -u +'%Y-%m-%d %H:%M UTC')"
+          # Two runs can race (a push-triggered run and a scheduled or manual one).
+          # Rebase onto whatever landed first and retry rather than failing the run.
+          for attempt in 1 2 3; do
+            if git push; then
+              echo "Pushed on attempt $attempt."
+              exit 0
+            fi
+            echo "Push rejected, rebasing and retrying..."
+            git pull --rebase --autostash origin main
+          done
+          echo "::error::Could not push refreshed data after 3 attempts."
+          exit 1
 
       - uses: actions/configure-pages@v5
         with:

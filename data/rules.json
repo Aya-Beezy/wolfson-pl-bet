@@ -4,6 +4,6 @@
   "penalty_top4_outside_top6": -5,
   "relegation_exact": 5,
   "top_scorer": 10,
-  "top_assists": 10,
-  "manager_sacked": 10
+  "top_assists": 5,
+  "manager_sacked": 20
 }
