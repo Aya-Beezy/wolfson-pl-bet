@@ -1,0 +1,5 @@
+{
+  "first_manager_sacked": null,
+  "date": null,
+  "note": "No free API tracks manager sackings. When the first Premier League manager of 2026/27 is sacked, set first_manager_sacked to the surname exactly as it appears in picks.json (e.g. \"Glasner\") and set date to YYYY-MM-DD. Leave null until then."
+}

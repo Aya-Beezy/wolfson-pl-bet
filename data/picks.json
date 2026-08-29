@@ -1,0 +1,42 @@
+{
+  "season": "2026/27",
+  "competition": "The Wolfson Premier League Bet",
+  "players": ["Akin", "Bharat", "Majid", "Tola", "Wax"],
+  "picks": {
+    "Akin": {
+      "top6": ["Arsenal", "Manchester United", "Liverpool", "Manchester City", "Tottenham Hotspur", "Chelsea"],
+      "relegation": ["Ipswich Town", "Hull City", "Coventry City"],
+      "top_scorer": { "id": 411, "name": "Erling Haaland" },
+      "top_assists": { "id": 557, "name": "Christos Tzolis" },
+      "manager_sacked": "Jakirovic"
+    },
+    "Bharat": {
+      "top6": ["Arsenal", "Chelsea", "Manchester United", "Manchester City", "Tottenham Hotspur", "Liverpool"],
+      "relegation": ["Crystal Palace", "Ipswich Town", "Hull City"],
+      "top_scorer": { "id": 165, "name": "Joao Pedro" },
+      "top_assists": { "id": 426, "name": "Bruno Fernandes" },
+      "manager_sacked": "Iraola"
+    },
+    "Majid": {
+      "top6": ["Arsenal", "Chelsea", "Manchester United", "Liverpool", "Manchester City", "Tottenham Hotspur"],
+      "relegation": ["Hull City", "Leeds", "Ipswich Town"],
+      "top_scorer": { "id": 411, "name": "Erling Haaland" },
+      "top_assists": { "id": 399, "name": "Rayan Cherki" },
+      "manager_sacked": "Arbeloa"
+    },
+    "Tola": {
+      "top6": ["Arsenal", "Manchester City", "Manchester United", "Chelsea", "Tottenham Hotspur", "Liverpool"],
+      "relegation": ["Coventry City", "Hull City", "Ipswich Town"],
+      "top_scorer": { "id": 411, "name": "Erling Haaland" },
+      "top_assists": { "id": 399, "name": "Rayan Cherki" },
+      "manager_sacked": "Lampard"
+    },
+    "Wax": {
+      "top6": ["Arsenal", "Chelsea", "Liverpool", "Manchester City", "Manchester United", "Tottenham Hotspur"],
+      "relegation": ["Fulham", "Ipswich Town", "Hull City"],
+      "top_scorer": { "id": 411, "name": "Erling Haaland" },
+      "top_assists": { "id": 426, "name": "Bruno Fernandes" },
+      "manager_sacked": "Glasner"
+    }
+  }
+}

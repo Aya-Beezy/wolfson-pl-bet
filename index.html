@@ -1,0 +1,343 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Wolfson Premier League Bet 26/27</title>
+<meta name="description" content="Live leaderboard for the Wolfson Premier League Bet 2026/27.">
+<meta name="theme-color" content="#12002e">
+<style>
+  :root{
+    --bg:#0b0417; --bg2:#150a2b; --card:#1b1035; --card2:#221545;
+    --line:rgba(255,255,255,.09); --line2:rgba(255,255,255,.16);
+    --ink:#f3eefe; --mute:#a294c4; --dim:#7d6ea0;
+    --green:#00e07b; --amber:#ffbf3d; --red:#ff5470; --blue:#4bb8ff; --gold:#ffd166;
+    --accent:#c026d3;
+    --r:16px;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  body{
+    background:
+      radial-gradient(1100px 620px at 12% -12%, #37096b 0%, transparent 62%),
+      radial-gradient(900px 520px at 92% 0%, #05304d 0%, transparent 58%),
+      var(--bg);
+    color:var(--ink);
+    font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing:antialiased;
+    min-height:100vh;
+  }
+  .wrap{max-width:1080px;margin:0 auto;padding:0 18px 72px}
+
+  /* ---------- header ---------- */
+  header{padding:38px 0 22px}
+  .eyebrow{
+    display:inline-flex;align-items:center;gap:8px;
+    font-size:11px;letter-spacing:.16em;text-transform:uppercase;
+    color:var(--mute);font-weight:700;
+    border:1px solid var(--line2);border-radius:999px;padding:6px 13px;
+    background:rgba(255,255,255,.03);
+  }
+  .dot{width:7px;height:7px;border-radius:50%;background:var(--green);box-shadow:0 0 12px var(--green)}
+  h1{
+    margin:16px 0 0;font-size:clamp(28px,6.2vw,50px);line-height:1.04;
+    font-weight:800;letter-spacing:-.03em;
+  }
+  h1 .sub{display:block;font-size:.42em;font-weight:600;color:var(--mute);letter-spacing:.02em;margin-top:10px}
+  .meta{margin-top:18px;display:flex;flex-wrap:wrap;gap:8px}
+  .chip{
+    font-size:12px;font-weight:600;color:var(--mute);
+    background:rgba(255,255,255,.05);border:1px solid var(--line);
+    padding:6px 12px;border-radius:999px;
+  }
+  .chip b{color:var(--ink);font-weight:700}
+
+  /* ---------- nav ---------- */
+  nav{
+    position:sticky;top:0;z-index:20;margin:26px -18px 0;padding:10px 18px;
+    background:rgba(11,4,23,.82);backdrop-filter:blur(14px);
+    border-bottom:1px solid var(--line);
+    display:flex;gap:6px;overflow-x:auto;-webkit-overflow-scrolling:touch;
+  }
+  nav::-webkit-scrollbar{display:none}
+  nav a{
+    flex:0 0 auto;color:var(--mute);text-decoration:none;font-size:13px;font-weight:600;
+    padding:8px 14px;border-radius:999px;white-space:nowrap;
+  }
+  nav a:hover{color:var(--ink);background:rgba(255,255,255,.06)}
+
+  section{margin-top:44px;scroll-margin-top:64px}
+  h2{
+    font-size:13px;letter-spacing:.15em;text-transform:uppercase;color:var(--dim);
+    font-weight:700;margin:0 0 16px;display:flex;align-items:center;gap:10px;
+  }
+  h2::after{content:"";flex:1;height:1px;background:var(--line)}
+
+  /* ---------- leaderboard ---------- */
+  .board{display:flex;flex-direction:column;gap:10px}
+  .row{
+    display:grid;grid-template-columns:44px 1fr auto;align-items:center;gap:14px;
+    background:linear-gradient(180deg,var(--card),var(--card2));
+    border:1px solid var(--line);border-radius:var(--r);padding:16px 18px;
+    transition:border-color .18s,transform .18s;
+  }
+  .row:hover{border-color:var(--line2);transform:translateY(-1px)}
+  .row.lead{
+    border-color:rgba(255,191,61,.5);
+    background:linear-gradient(180deg,#2a1d10,#1e1330);
+    box-shadow:0 0 0 1px rgba(255,191,61,.14),0 14px 40px -18px rgba(255,191,61,.5);
+  }
+  .rank{
+    font-size:19px;font-weight:800;color:var(--dim);text-align:center;
+    font-variant-numeric:tabular-nums;
+  }
+  .row.lead .rank{color:var(--amber)}
+  .who{min-width:0}
+  .name{font-size:19px;font-weight:700;letter-spacing:-.01em}
+  .bits{display:flex;flex-wrap:wrap;gap:5px;margin-top:8px}
+  .bit{
+    font-size:11px;font-weight:600;color:var(--mute);
+    border:1px solid var(--line);border-radius:6px;padding:3px 7px;
+    font-variant-numeric:tabular-nums;
+  }
+  .bit b{color:var(--ink)}
+  .bit.pos b{color:var(--green)} .bit.neg b{color:var(--red)}
+  .pts{text-align:right}
+  .pts .n{font-size:32px;font-weight:800;letter-spacing:-.04em;font-variant-numeric:tabular-nums;line-height:1}
+  .pts .n.neg{color:var(--red)}
+  .pts .l{font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--dim);font-weight:700;margin-top:5px}
+
+  /* ---------- table ---------- */
+  .panel{
+    background:linear-gradient(180deg,var(--card),var(--card2));
+    border:1px solid var(--line);border-radius:var(--r);overflow:hidden;
+  }
+  .scroll{overflow-x:auto}
+  table{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums;min-width:460px}
+  th{
+    text-align:right;font-size:10px;letter-spacing:.11em;text-transform:uppercase;
+    color:var(--dim);font-weight:700;padding:13px 10px;border-bottom:1px solid var(--line);
+    position:sticky;top:0;background:#1a1033;
+  }
+  th:first-child,th:nth-child(2){text-align:left}
+  td{padding:11px 10px;border-bottom:1px solid rgba(255,255,255,.05);text-align:right;font-size:14px}
+  td:first-child,td:nth-child(2){text-align:left}
+  tr:last-child td{border-bottom:0}
+  .tpos{color:var(--dim);font-weight:700;width:38px}
+  .tteam{font-weight:600}
+  .tpts{font-weight:800}
+  tr.eu td:first-child{box-shadow:inset 3px 0 0 var(--green)}
+  tr.rel td:first-child{box-shadow:inset 3px 0 0 var(--red)}
+  tr.eu .tpos{color:var(--green)} tr.rel .tpos{color:var(--red)}
+  .owner{
+    display:inline-block;margin-left:8px;font-size:10px;font-weight:700;
+    color:var(--mute);background:rgba(255,255,255,.06);border-radius:5px;padding:2px 6px;
+  }
+
+  /* ---------- races ---------- */
+  .duo{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+  @media(max-width:720px){.duo{grid-template-columns:1fr}}
+  .panel h3{
+    margin:0;padding:15px 18px;font-size:12px;letter-spacing:.13em;text-transform:uppercase;
+    color:var(--mute);font-weight:700;border-bottom:1px solid var(--line);
+    display:flex;justify-content:space-between;align-items:center;
+  }
+  .panel h3 span{font-size:10px;color:var(--dim);letter-spacing:.06em}
+  .lr{display:flex;align-items:center;gap:12px;padding:11px 18px;border-bottom:1px solid rgba(255,255,255,.05)}
+  .lr:last-child{border-bottom:0}
+  .lr.top{background:rgba(0,224,123,.07)}
+  .lr .i{width:20px;font-size:12px;font-weight:700;color:var(--dim);font-variant-numeric:tabular-nums}
+  .lr.top .i{color:var(--green)}
+  .lr .nm{flex:1;min-width:0;font-weight:600;font-size:14px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .lr .tm{font-size:11px;color:var(--dim);font-weight:600}
+  .lr .v{font-weight:800;font-size:16px;font-variant-numeric:tabular-nums}
+  .lr.top .v{color:var(--green)}
+
+  /* ---------- picks ---------- */
+  .cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px}
+  .pc{background:linear-gradient(180deg,var(--card),var(--card2));border:1px solid var(--line);border-radius:var(--r);overflow:hidden}
+  .pc header{padding:15px 18px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:baseline}
+  .pc header .n{font-size:17px;font-weight:700}
+  .pc header .t{font-size:20px;font-weight:800;font-variant-numeric:tabular-nums}
+  .pc .grp{padding:12px 18px;border-bottom:1px solid rgba(255,255,255,.05)}
+  .pc .grp:last-child{border-bottom:0}
+  .pc .gt{font-size:10px;letter-spacing:.13em;text-transform:uppercase;color:var(--dim);font-weight:700;margin-bottom:9px}
+  .pl{display:flex;align-items:center;gap:9px;padding:4px 0;font-size:13px}
+  .pl .s{width:26px;font-size:11px;font-weight:700;color:var(--dim);font-variant-numeric:tabular-nums}
+  .pl .tm{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-weight:600}
+  .pl .ac{font-size:11px;color:var(--dim);font-variant-numeric:tabular-nums}
+  .pl .p{font-size:12px;font-weight:800;width:30px;text-align:right;font-variant-numeric:tabular-nums}
+  .st-exact .tm,.st-exact .p,.st-leading .tm,.st-leading .p,.st-hit .tm,.st-hit .p{color:var(--green)}
+  .st-top4-near .tm,.st-top4-near .p{color:var(--amber)}
+  .st-penalty .tm,.st-penalty .p{color:var(--red)}
+  .st-in-drop-zone .tm{color:var(--blue)}
+  .st-miss .tm,.st-behind .tm,.st-missed .tm,.st-pending .tm{color:var(--mute)}
+  .st-miss .p,.st-behind .p,.st-missed .p,.st-pending .p{color:var(--dim)}
+
+  /* ---------- rules + footer ---------- */
+  .rules{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:10px}
+  .rule{background:rgba(255,255,255,.03);border:1px solid var(--line);border-radius:11px;padding:13px 15px;display:flex;justify-content:space-between;align-items:center;gap:12px}
+  .rule .d{font-size:12px;color:var(--mute);line-height:1.35}
+  .rule .v{font-size:19px;font-weight:800;font-variant-numeric:tabular-nums;flex:0 0 auto}
+  .rule .v.pos{color:var(--green)} .rule .v.neg{color:var(--red)}
+  footer{margin-top:52px;padding-top:22px;border-top:1px solid var(--line);color:var(--dim);font-size:12px;line-height:1.7}
+  footer a{color:var(--mute)}
+  .note{background:rgba(75,184,255,.07);border:1px solid rgba(75,184,255,.22);border-radius:11px;padding:13px 16px;font-size:13px;color:var(--mute);margin-top:14px}
+  .note b{color:var(--ink)}
+  .err{padding:60px 0;text-align:center;color:var(--mute)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="eyebrow"><span class="dot"></span> Live · Premier League 2026/27</div>
+    <h1>The Wolfson<br>Premier League Bet<span class="sub">One set of predictions. Nine months. No takebacks.</span></h1>
+    <div class="meta" id="meta"></div>
+  </header>
+
+  <nav>
+    <a href="#leaderboard">Leaderboard</a>
+    <a href="#table">League table</a>
+    <a href="#races">Golden Boot</a>
+    <a href="#picks">Everyone's picks</a>
+    <a href="#rules">Scoring</a>
+  </nav>
+
+  <main id="app"><div class="err">Loading…</div></main>
+
+  <footer>
+    <div>Table computed from finished fixtures. Goals and assists from the official Fantasy Premier League API — the agreed source of truth for both races.</div>
+    <div style="margin-top:8px">Rebuilt automatically every day. First manager sacked is entered by hand, because nothing free tracks it.</div>
+  </footer>
+</div>
+
+<script>
+const CAT = {top6:"Top 6", relegation:"Relegation", top_scorer:"Top scorer", top_assists:"Top assists", manager_sacked:"Manager"};
+const el = (h)=>{const d=document.createElement("div");d.innerHTML=h.trim();return d.firstElementChild};
+const esc = (s)=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const sign = (n)=> n>0?`+${n}`:`${n}`;
+
+fetch("data/data.json?v="+Date.now()).then(r=>r.json()).then(render).catch(e=>{
+  document.getElementById("app").innerHTML = `<div class="err">Couldn't load the data.<br><small>${esc(e.message)}</small></div>`;
+});
+
+function render(d){
+  const when = new Date(d.generated_at).toLocaleString("en-GB",{day:"numeric",month:"short",hour:"2-digit",minute:"2-digit"});
+  document.getElementById("meta").innerHTML =
+    `<span class="chip">Gameweeks played <b>${d.gameweeks_played}</b></span>`+
+    `<span class="chip">Next up <b>${esc(d.next_gameweek)}</b></span>`+
+    `<span class="chip">Updated <b>${esc(when)}</b></span>`+
+    `<span class="chip">Leader <b>${esc(d.leaderboard[0].player)}</b></span>`;
+
+  const app = document.getElementById("app");
+  app.innerHTML = "";
+  app.append(leaderboard(d), leagueTable(d), races(d), picks(d), rules(d));
+}
+
+function leaderboard(d){
+  const s = el(`<section id="leaderboard"><h2>Leaderboard</h2><div class="board"></div></section>`);
+  const board = s.querySelector(".board");
+  d.leaderboard.forEach(p=>{
+    const bits = Object.entries(p.breakdown).map(([k,v])=>
+      `<span class="bit ${v>0?"pos":v<0?"neg":""}">${CAT[k]} <b>${sign(v)}</b></span>`).join("");
+    board.append(el(`
+      <div class="row ${p.rank===1?"lead":""}">
+        <div class="rank">${p.rank}</div>
+        <div class="who"><div class="name">${esc(p.player)}</div><div class="bits">${bits}</div></div>
+        <div class="pts"><div class="n ${p.total<0?"neg":""}">${p.total}</div><div class="l">points</div></div>
+      </div>`));
+  });
+  return s;
+}
+
+function leagueTable(d){
+  const backers = {};
+  for (const [who,pk] of Object.entries(d.picks)){
+    pk.top6.forEach((t,i)=>((backers[t]??=[]).push(`${who} ${i+1}`)));
+    pk.relegation.forEach((t,i)=>((backers[t]??=[]).push(`${who} ${i+18}`)));
+  }
+  const s = el(`<section id="table"><h2>Premier League table</h2>
+    <div class="panel"><div class="scroll"><table>
+      <thead><tr><th>#</th><th>Team</th><th>Pl</th><th>W</th><th>D</th><th>L</th><th>GD</th><th>Pts</th></tr></thead>
+      <tbody></tbody></table></div></div></section>`);
+  const tb = s.querySelector("tbody");
+  d.table.forEach(r=>{
+    const cls = r.pos<=6 ? "eu" : r.pos>=18 ? "rel" : "";
+    const tag = backers[r.team]?.length ? `<span class="owner">${esc(backers[r.team].join(" · "))}</span>` : "";
+    tb.append(el(`<tr class="${cls}">
+      <td class="tpos">${r.pos}</td>
+      <td class="tteam">${esc(r.team)}${tag}</td>
+      <td>${r.played}</td><td>${r.won}</td><td>${r.drawn}</td><td>${r.lost}</td>
+      <td>${r.gd>0?"+":""}${r.gd}</td><td class="tpts">${r.pts}</td></tr>`));
+  });
+  return s;
+}
+
+function racePanel(title, unit, rows, picksBy){
+  const p = el(`<div class="panel"><h3>${title}<span>${unit}</span></h3></div>`);
+  if(!rows.length){ p.append(el(`<div class="lr"><div class="nm" style="color:var(--dim)">Nothing on the board yet</div></div>`)); return p; }
+  rows.forEach((r,i)=>{
+    const who = picksBy[r.id]?.length ? `<span class="owner">${esc(picksBy[r.id].join(" · "))}</span>` : "";
+    p.append(el(`<div class="lr ${r.leading?"top":""}">
+      <div class="i">${i+1}</div>
+      <div class="nm">${esc(r.name)}${who}<div class="tm">${esc(r.team)}</div></div>
+      <div class="v">${r.value}</div></div>`));
+  });
+  return p;
+}
+
+function races(d){
+  const byScorer={}, byAssist={};
+  for (const [who,pk] of Object.entries(d.picks)){
+    (byScorer[pk.top_scorer.id]??=[]).push(who);
+    (byAssist[pk.top_assists.id]??=[]).push(who);
+  }
+  const s = el(`<section id="races"><h2>Golden Boot &amp; Playmaker</h2><div class="duo"></div></section>`);
+  s.querySelector(".duo").append(
+    racePanel("Top scorer","Goals", d.top_scorers, byScorer),
+    racePanel("Top assists","Assists", d.top_assists, byAssist));
+  const m = d.manager_sacked.name;
+  s.append(el(`<div class="note">${ m
+    ? `<b>First manager sacked:</b> ${esc(m)}${d.manager_sacked.date?` (${esc(d.manager_sacked.date)})`:""} — settled.`
+    : `<b>First manager sacked:</b> still nobody. Picks are Glasner, Arbeloa, Iraola, Jakirovic and Lampard. Entered by hand the day it happens.` }</div>`));
+  return s;
+}
+
+function picks(d){
+  const s = el(`<section id="picks"><h2>Everyone's picks</h2><div class="cards"></div></section>`);
+  const wrap = s.querySelector(".cards");
+  d.leaderboard.forEach(p=>{
+    const g = (cat)=>p.lines.filter(l=>l.category===cat);
+    const line = (l)=>`<div class="pl st-${l.status}">
+        <div class="s">${l.slot??""}</div>
+        <div class="tm">${esc(l.pick)}</div>
+        <div class="ac">${l.actual?`now ${l.actual}`:""}</div>
+        <div class="p">${l.points?sign(l.points):"–"}</div></div>`;
+    wrap.append(el(`<div class="pc">
+      <header><div class="n">${esc(p.player)}</div><div class="t">${p.total}</div></header>
+      <div class="grp"><div class="gt">Top 6</div>${g("top6").map(line).join("")}</div>
+      <div class="grp"><div class="gt">Relegation</div>${g("relegation").map(line).join("")}</div>
+      <div class="grp"><div class="gt">Specials</div>${
+        ["top_scorer","top_assists","manager_sacked"].flatMap(g).map(line).join("")}</div>
+    </div>`));
+  });
+  return s;
+}
+
+function rules(d){
+  const labels = {
+    result_exact_top6:"Top-6 team in the exact right slot",
+    top4_not_exact:"Top-4 team finishes top 4, wrong slot",
+    penalty_top4_outside_top6:"Top-4 pick finishes outside the top 6",
+    relegation_exact:"Relegated team in the exact right slot",
+    top_scorer:"Top goalscorer", top_assists:"Top assist maker", manager_sacked:"First manager sacked"
+  };
+  const s = el(`<section id="rules"><h2>Scoring</h2><div class="rules"></div></section>`);
+  const w = s.querySelector(".rules");
+  Object.entries(d.rules).forEach(([k,v])=>w.append(el(
+    `<div class="rule"><div class="d">${labels[k]||k}</div><div class="v ${v>0?"pos":"neg"}">${sign(v)}</div></div>`)));
+  return s;
+}
+</script>
+</body>
+</html>

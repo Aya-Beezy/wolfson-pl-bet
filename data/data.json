@@ -1,0 +1,1069 @@
+{
+ "generated_at": "2026-08-29T09:50:22Z",
+ "season": "2026/27",
+ "gameweeks_played": 1,
+ "next_gameweek": "Gameweek 2",
+ "rules": {
+  "result_exact_top6": 5,
+  "top4_not_exact": 2,
+  "penalty_top4_outside_top6": -5,
+  "relegation_exact": 5,
+  "top_scorer": 10,
+  "top_assists": 10,
+  "manager_sacked": 10
+ },
+ "table": [
+  {
+   "team": "Brighton",
+   "played": 1,
+   "won": 1,
+   "drawn": 0,
+   "lost": 0,
+   "gf": 4,
+   "ga": 0,
+   "pts": 3,
+   "pos": 1,
+   "gd": 4
+  },
+  {
+   "team": "Arsenal",
+   "played": 1,
+   "won": 1,
+   "drawn": 0,
+   "lost": 0,
+   "gf": 3,
+   "ga": 0,
+   "pts": 3,
+   "pos": 2,
+   "gd": 3
+  },
+  {
+   "team": "Brentford",
+   "played": 1,
+   "won": 1,
+   "drawn": 0,
+   "lost": 0,
+   "gf": 3,
+   "ga": 0,
+   "pts": 3,
+   "pos": 3,
+   "gd": 3
+  },
+  {
+   "team": "Everton",
+   "played": 1,
+   "won": 1,
+   "drawn": 0,
+   "lost": 0,
+   "gf": 2,
+   "ga": 0,
+   "pts": 3,
+   "pos": 4,
+   "gd": 2
+  },
+  {
+   "team": "Hull City",
+   "played": 1,
+   "won": 1,
+   "drawn": 0,
+   "lost": 0,
+   "gf": 2,
+   "ga": 0,
+   "pts": 3,
+   "pos": 5,
+   "gd": 2
+  },
+  {
+   "team": "Chelsea",
+   "played": 1,
+   "won": 1,
+   "drawn": 0,
+   "lost": 0,
+   "gf": 3,
+   "ga": 2,
+   "pts": 3,
+   "pos": 6,
+   "gd": 1
+  },
+  {
+   "team": "Ipswich Town",
+   "played": 1,
+   "won": 1,
+   "drawn": 0,
+   "lost": 0,
+   "gf": 2,
+   "ga": 1,
+   "pts": 3,
+   "pos": 7,
+   "gd": 1
+  },
+  {
+   "team": "Man City",
+   "played": 1,
+   "won": 1,
+   "drawn": 0,
+   "lost": 0,
+   "gf": 2,
+   "ga": 1,
+   "pts": 3,
+   "pos": 8,
+   "gd": 1
+  },
+  {
+   "team": "Leeds",
+   "played": 1,
+   "won": 1,
+   "drawn": 0,
+   "lost": 0,
+   "gf": 1,
+   "ga": 0,
+   "pts": 3,
+   "pos": 9,
+   "gd": 1
+  },
+  {
+   "team": "Liverpool",
+   "played": 1,
+   "won": 0,
+   "drawn": 1,
+   "lost": 0,
+   "gf": 2,
+   "ga": 2,
+   "pts": 1,
+   "pos": 10,
+   "gd": 0
+  },
+  {
+   "team": "Newcastle",
+   "played": 1,
+   "won": 0,
+   "drawn": 1,
+   "lost": 0,
+   "gf": 2,
+   "ga": 2,
+   "pts": 1,
+   "pos": 11,
+   "gd": 0
+  },
+  {
+   "team": "Fulham",
+   "played": 1,
+   "won": 0,
+   "drawn": 0,
+   "lost": 1,
+   "gf": 2,
+   "ga": 3,
+   "pts": 0,
+   "pos": 12,
+   "gd": -1
+  },
+  {
+   "team": "Bournemouth",
+   "played": 1,
+   "won": 0,
+   "drawn": 0,
+   "lost": 1,
+   "gf": 1,
+   "ga": 2,
+   "pts": 0,
+   "pos": 13,
+   "gd": -1
+  },
+  {
+   "team": "Sunderland",
+   "played": 1,
+   "won": 0,
+   "drawn": 0,
+   "lost": 1,
+   "gf": 1,
+   "ga": 2,
+   "pts": 0,
+   "pos": 14,
+   "gd": -1
+  },
+  {
+   "team": "Nott'm Forest",
+   "played": 1,
+   "won": 0,
+   "drawn": 0,
+   "lost": 1,
+   "gf": 0,
+   "ga": 1,
+   "pts": 0,
+   "pos": 15,
+   "gd": -1
+  },
+  {
+   "team": "Crystal Palace",
+   "played": 1,
+   "won": 0,
+   "drawn": 0,
+   "lost": 1,
+   "gf": 0,
+   "ga": 2,
+   "pts": 0,
+   "pos": 16,
+   "gd": -2
+  },
+  {
+   "team": "Man Utd",
+   "played": 1,
+   "won": 0,
+   "drawn": 0,
+   "lost": 1,
+   "gf": 0,
+   "ga": 2,
+   "pts": 0,
+   "pos": 17,
+   "gd": -2
+  },
+  {
+   "team": "Coventry City",
+   "played": 1,
+   "won": 0,
+   "drawn": 0,
+   "lost": 1,
+   "gf": 0,
+   "ga": 3,
+   "pts": 0,
+   "pos": 18,
+   "gd": -3
+  },
+  {
+   "team": "Spurs",
+   "played": 1,
+   "won": 0,
+   "drawn": 0,
+   "lost": 1,
+   "gf": 0,
+   "ga": 3,
+   "pts": 0,
+   "pos": 19,
+   "gd": -3
+  },
+  {
+   "team": "Aston Villa",
+   "played": 1,
+   "won": 0,
+   "drawn": 0,
+   "lost": 1,
+   "gf": 0,
+   "ga": 4,
+   "pts": 0,
+   "pos": 20,
+   "gd": -4
+  }
+ ],
+ "top_scorers": [
+  {
+   "id": 399,
+   "name": "Cherki",
+   "full_name": "Rayan Cherki",
+   "team": "Man City",
+   "value": 2,
+   "leading": true
+  },
+  {
+   "id": 411,
+   "name": "Haaland",
+   "full_name": "Erling Haaland",
+   "team": "Man City",
+   "value": 2,
+   "leading": true
+  },
+  {
+   "id": 123,
+   "name": "Hinshelwood",
+   "full_name": "Jack Hinshelwood",
+   "team": "Brighton",
+   "value": 2,
+   "leading": true
+  },
+  {
+   "id": 279,
+   "name": "Ajayi",
+   "full_name": "Semi Ajayi",
+   "team": "Hull City",
+   "value": 1,
+   "leading": false
+  },
+  {
+   "id": 551,
+   "name": "Angulo",
+   "full_name": "Nilson Angulo",
+   "team": "Sunderland",
+   "value": 1,
+   "leading": false
+  },
+  {
+   "id": 249,
+   "name": "Barry",
+   "full_name": "Thierno Barry",
+   "team": "Everton",
+   "value": 1,
+   "leading": false
+  },
+  {
+   "id": 313,
+   "name": "Clarke",
+   "full_name": "Jack Clarke",
+   "team": "Ipswich Town",
+   "value": 1,
+   "leading": false
+  },
+  {
+   "id": 115,
+   "name": "De Cuyper",
+   "full_name": "Maxim De Cuyper",
+   "team": "Brighton",
+   "value": 1,
+   "leading": false
+  },
+  {
+   "id": 236,
+   "name": "Dewsbury-Hall",
+   "full_name": "Kiernan Dewsbury-Hall",
+   "team": "Everton",
+   "value": 1,
+   "leading": false
+  },
+  {
+   "id": 454,
+   "name": "Elanga",
+   "full_name": "Anthony Elanga",
+   "team": "Newcastle",
+   "value": 1,
+   "leading": false
+  }
+ ],
+ "top_assists": [
+  {
+   "id": 258,
+   "name": "Castagne",
+   "full_name": "Timothy Castagne",
+   "team": "Fulham",
+   "value": 2,
+   "leading": true
+  },
+  {
+   "id": 399,
+   "name": "Cherki",
+   "full_name": "Rayan Cherki",
+   "team": "Man City",
+   "value": 2,
+   "leading": true
+  },
+  {
+   "id": 398,
+   "name": "Foden",
+   "full_name": "Phil Foden",
+   "team": "Man City",
+   "value": 2,
+   "leading": true
+  },
+  {
+   "id": 565,
+   "name": "M.Sangaré",
+   "full_name": "Mamadou Sangaré",
+   "team": "Brentford",
+   "value": 2,
+   "leading": true
+  },
+  {
+   "id": 244,
+   "name": "Armstrong",
+   "full_name": "Harrison Armstrong",
+   "team": "Everton",
+   "value": 1,
+   "leading": false
+  },
+  {
+   "id": 8,
+   "name": "Calafiori",
+   "full_name": "Riccardo Calafiori",
+   "team": "Arsenal",
+   "value": 1,
+   "leading": false
+  },
+  {
+   "id": 115,
+   "name": "De Cuyper",
+   "full_name": "Maxim De Cuyper",
+   "team": "Brighton",
+   "value": 1,
+   "leading": false
+  },
+  {
+   "id": 591,
+   "name": "Enciso",
+   "full_name": "Julio Enciso",
+   "team": "Ipswich Town",
+   "value": 1,
+   "leading": false
+  },
+  {
+   "id": 79,
+   "name": "Evanilson",
+   "full_name": "Francisco Evanilson de Lima Barbosa",
+   "team": "Bournemouth",
+   "value": 1,
+   "leading": false
+  },
+  {
+   "id": 125,
+   "name": "Georginio",
+   "full_name": "Georginio Rutter",
+   "team": "Brighton",
+   "value": 1,
+   "leading": false
+  }
+ ],
+ "manager_sacked": {
+  "name": null,
+  "date": null
+ },
+ "leaderboard": [
+  {
+   "player": "Tola",
+   "breakdown": {
+    "top6": -8,
+    "relegation": 5,
+    "top_scorer": 10,
+    "top_assists": 10,
+    "manager_sacked": 0
+   },
+   "lines": [
+    {
+     "category": "top6",
+     "slot": 1,
+     "pick": "Arsenal",
+     "actual": 2,
+     "points": 2,
+     "status": "top4-near"
+    },
+    {
+     "category": "top6",
+     "slot": 2,
+     "pick": "Man City",
+     "actual": 8,
+     "points": -5,
+     "status": "penalty"
+    },
+    {
+     "category": "top6",
+     "slot": 3,
+     "pick": "Man Utd",
+     "actual": 17,
+     "points": -5,
+     "status": "penalty"
+    },
+    {
+     "category": "top6",
+     "slot": 4,
+     "pick": "Chelsea",
+     "actual": 6,
+     "points": 0,
+     "status": "miss"
+    },
+    {
+     "category": "top6",
+     "slot": 5,
+     "pick": "Spurs",
+     "actual": 19,
+     "points": 0,
+     "status": "miss"
+    },
+    {
+     "category": "top6",
+     "slot": 6,
+     "pick": "Liverpool",
+     "actual": 10,
+     "points": 0,
+     "status": "miss"
+    },
+    {
+     "category": "relegation",
+     "slot": 18,
+     "pick": "Coventry City",
+     "actual": 18,
+     "points": 5,
+     "status": "exact"
+    },
+    {
+     "category": "relegation",
+     "slot": 19,
+     "pick": "Hull City",
+     "actual": 5,
+     "points": 0,
+     "status": "miss"
+    },
+    {
+     "category": "relegation",
+     "slot": 20,
+     "pick": "Ipswich Town",
+     "actual": 7,
+     "points": 0,
+     "status": "miss"
+    },
+    {
+     "category": "top_scorer",
+     "pick": "Erling Haaland",
+     "points": 10,
+     "status": "leading"
+    },
+    {
+     "category": "top_assists",
+     "pick": "Rayan Cherki",
+     "points": 10,
+     "status": "leading"
+    },
+    {
+     "category": "manager_sacked",
+     "pick": "Lampard",
+     "points": 0,
+     "status": "pending"
+    }
+   ],
+   "total": 17,
+   "rank": 1
+  },
+  {
+   "player": "Majid",
+   "breakdown": {
+    "top6": -8,
+    "relegation": 0,
+    "top_scorer": 10,
+    "top_assists": 10,
+    "manager_sacked": 0
+   },
+   "lines": [
+    {
+     "category": "top6",
+     "slot": 1,
+     "pick": "Arsenal",
+     "actual": 2,
+     "points": 2,
+     "status": "top4-near"
+    },
+    {
+     "category": "top6",
+     "slot": 2,
+     "pick": "Chelsea",
+     "actual": 6,
+     "points": 0,
+     "status": "miss"
+    },
+    {
+     "category": "top6",
+     "slot": 3,
+     "pick": "Man Utd",
+     "actual": 17,
+     "points": -5,
+     "status": "penalty"
+    },
+    {
+     "category": "top6",
+     "slot": 4,
+     "pick": "Liverpool",
+     "actual": 10,
+     "points": -5,
+     "status": "penalty"
+    },
+    {
+     "category": "top6",
+     "slot": 5,
+     "pick": "Man City",
+     "actual": 8,
+     "points": 0,
+     "status": "miss"
+    },
+    {
+     "category": "top6",
+     "slot": 6,
+     "pick": "Spurs",
+     "actual": 19,
+     "points": 0,
+     "status": "miss"
+    },
+    {
+     "category": "relegation",
+     "slot": 18,
+     "pick": "Hull City",
+     "actual": 5,
+     "points": 0,
+     "status": "miss"
+    },
+    {
+     "category": "relegation",
+     "slot": 19,
+     "pick": "Leeds",
+     "actual": 9,
+     "points": 0,
+     "status": "miss"
+    },
+    {
+     "category": "relegation",
+     "slot": 20,
+     "pick": "Ipswich Town",
+     "actual": 7,
+     "points": 0,
+     "status": "miss"
+    },
+    {
+     "category": "top_scorer",
+     "pick": "Erling Haaland",
+     "points": 10,
+     "status": "leading"
+    },
+    {
+     "category": "top_assists",
+     "pick": "Rayan Cherki",
+     "points": 10,
+     "status": "leading"
+    },
+    {
+     "category": "manager_sacked",
+     "pick": "Arbeloa",
+     "points": 0,
+     "status": "pending"
+    }
+   ],
+   "total": 12,
+   "rank": 2
+  },
+  {
+   "player": "Akin",
+   "breakdown": {
+    "top6": -8,
+    "relegation": 0,
+    "top_scorer": 10,
+    "top_assists": 0,
+    "manager_sacked": 0
+   },
+   "lines": [
+    {
+     "category": "top6",
+     "slot": 1,
+     "pick": "Arsenal",
+     "actual": 2,
+     "points": 2,
+     "status": "top4-near"
+    },
+    {
+     "category": "top6",
+     "slot": 2,
+     "pick": "Man Utd",
+     "actual": 17,
+     "points": -5,
+     "status": "penalty"
+    },
+    {
+     "category": "top6",
+     "slot": 3,
+     "pick": "Liverpool",
+     "actual": 10,
+     "points": -5,
+     "status": "penalty"
+    },
+    {
+     "category": "top6",
+     "slot": 4,
+     "pick": "Man City",
+     "actual": 8,
+     "points": -5,
+     "status": "penalty"
+    },
+    {
+     "category": "top6",
+     "slot": 5,
+     "pick": "Spurs",
+     "actual": 19,
+     "points": 0,
+     "status": "miss"
+    },
+    {
+     "category": "top6",
+     "slot": 6,
+     "pick": "Chelsea",
+     "actual": 6,
+     "points": 5,
+     "status": "exact"
+    },
+    {
+     "category": "relegation",
+     "slot": 18,
+     "pick": "Ipswich Town",
+     "actual": 7,
+     "points": 0,
+     "status": "miss"
+    },
+    {
+     "category": "relegation",
+     "slot": 19,
+     "pick": "Hull City",
+     "actual": 5,
+     "points": 0,
+     "status": "miss"
+    },
+    {
+     "category": "relegation",
+     "slot": 20,
+     "pick": "Coventry City",
+     "actual": 18,
+     "points": 0,
+     "status": "in-drop-zone"
+    },
+    {
+     "category": "top_scorer",
+     "pick": "Erling Haaland",
+     "points": 10,
+     "status": "leading"
+    },
+    {
+     "category": "top_assists",
+     "pick": "Christos Tzolis",
+     "points": 0,
+     "status": "behind"
+    },
+    {
+     "category": "manager_sacked",
+     "pick": "Jakirovic",
+     "points": 0,
+     "status": "pending"
+    }
+   ],
+   "total": 2,
+   "rank": 3
+  },
+  {
+   "player": "Wax",
+   "breakdown": {
+    "top6": -8,
+    "relegation": 0,
+    "top_scorer": 10,
+    "top_assists": 0,
+    "manager_sacked": 0
+   },
+   "lines": [
+    {
+     "category": "top6",
+     "slot": 1,
+     "pick": "Arsenal",
+     "actual": 2,
+     "points": 2,
+     "status": "top4-near"
+    },
+    {
+     "category": "top6",
+     "slot": 2,
+     "pick": "Chelsea",
+     "actual": 6,
+     "points": 0,
+     "status": "miss"
+    },
+    {
+     "category": "top6",
+     "slot": 3,
+     "pick": "Liverpool",
+     "actual": 10,
+     "points": -5,
+     "status": "penalty"
+    },
+    {
+     "category": "top6",
+     "slot": 4,
+     "pick": "Man City",
+     "actual": 8,
+     "points": -5,
+     "status": "penalty"
+    },
+    {
+     "category": "top6",
+     "slot": 5,
+     "pick": "Man Utd",
+     "actual": 17,
+     "points": 0,
+     "status": "miss"
+    },
+    {
+     "category": "top6",
+     "slot": 6,
+     "pick": "Spurs",
+     "actual": 19,
+     "points": 0,
+     "status": "miss"
+    },
+    {
+     "category": "relegation",
+     "slot": 18,
+     "pick": "Fulham",
+     "actual": 12,
+     "points": 0,
+     "status": "miss"
+    },
+    {
+     "category": "relegation",
+     "slot": 19,
+     "pick": "Ipswich Town",
+     "actual": 7,
+     "points": 0,
+     "status": "miss"
+    },
+    {
+     "category": "relegation",
+     "slot": 20,
+     "pick": "Hull City",
+     "actual": 5,
+     "points": 0,
+     "status": "miss"
+    },
+    {
+     "category": "top_scorer",
+     "pick": "Erling Haaland",
+     "points": 10,
+     "status": "leading"
+    },
+    {
+     "category": "top_assists",
+     "pick": "Bruno Fernandes",
+     "points": 0,
+     "status": "behind"
+    },
+    {
+     "category": "manager_sacked",
+     "pick": "Glasner",
+     "points": 0,
+     "status": "pending"
+    }
+   ],
+   "total": 2,
+   "rank": 3
+  },
+  {
+   "player": "Bharat",
+   "breakdown": {
+    "top6": -8,
+    "relegation": 0,
+    "top_scorer": 0,
+    "top_assists": 0,
+    "manager_sacked": 0
+   },
+   "lines": [
+    {
+     "category": "top6",
+     "slot": 1,
+     "pick": "Arsenal",
+     "actual": 2,
+     "points": 2,
+     "status": "top4-near"
+    },
+    {
+     "category": "top6",
+     "slot": 2,
+     "pick": "Chelsea",
+     "actual": 6,
+     "points": 0,
+     "status": "miss"
+    },
+    {
+     "category": "top6",
+     "slot": 3,
+     "pick": "Man Utd",
+     "actual": 17,
+     "points": -5,
+     "status": "penalty"
+    },
+    {
+     "category": "top6",
+     "slot": 4,
+     "pick": "Man City",
+     "actual": 8,
+     "points": -5,
+     "status": "penalty"
+    },
+    {
+     "category": "top6",
+     "slot": 5,
+     "pick": "Spurs",
+     "actual": 19,
+     "points": 0,
+     "status": "miss"
+    },
+    {
+     "category": "top6",
+     "slot": 6,
+     "pick": "Liverpool",
+     "actual": 10,
+     "points": 0,
+     "status": "miss"
+    },
+    {
+     "category": "relegation",
+     "slot": 18,
+     "pick": "Crystal Palace",
+     "actual": 16,
+     "points": 0,
+     "status": "miss"
+    },
+    {
+     "category": "relegation",
+     "slot": 19,
+     "pick": "Ipswich Town",
+     "actual": 7,
+     "points": 0,
+     "status": "miss"
+    },
+    {
+     "category": "relegation",
+     "slot": 20,
+     "pick": "Hull City",
+     "actual": 5,
+     "points": 0,
+     "status": "miss"
+    },
+    {
+     "category": "top_scorer",
+     "pick": "Joao Pedro",
+     "points": 0,
+     "status": "behind"
+    },
+    {
+     "category": "top_assists",
+     "pick": "Bruno Fernandes",
+     "points": 0,
+     "status": "behind"
+    },
+    {
+     "category": "manager_sacked",
+     "pick": "Iraola",
+     "points": 0,
+     "status": "pending"
+    }
+   ],
+   "total": -8,
+   "rank": 5
+  }
+ ],
+ "picks": {
+  "Akin": {
+   "top6": [
+    "Arsenal",
+    "Manchester United",
+    "Liverpool",
+    "Manchester City",
+    "Tottenham Hotspur",
+    "Chelsea"
+   ],
+   "relegation": [
+    "Ipswich Town",
+    "Hull City",
+    "Coventry City"
+   ],
+   "top_scorer": {
+    "id": 411,
+    "name": "Erling Haaland"
+   },
+   "top_assists": {
+    "id": 557,
+    "name": "Christos Tzolis"
+   },
+   "manager_sacked": "Jakirovic"
+  },
+  "Bharat": {
+   "top6": [
+    "Arsenal",
+    "Chelsea",
+    "Manchester United",
+    "Manchester City",
+    "Tottenham Hotspur",
+    "Liverpool"
+   ],
+   "relegation": [
+    "Crystal Palace",
+    "Ipswich Town",
+    "Hull City"
+   ],
+   "top_scorer": {
+    "id": 165,
+    "name": "Joao Pedro"
+   },
+   "top_assists": {
+    "id": 426,
+    "name": "Bruno Fernandes"
+   },
+   "manager_sacked": "Iraola"
+  },
+  "Majid": {
+   "top6": [
+    "Arsenal",
+    "Chelsea",
+    "Manchester United",
+    "Liverpool",
+    "Manchester City",
+    "Tottenham Hotspur"
+   ],
+   "relegation": [
+    "Hull City",
+    "Leeds",
+    "Ipswich Town"
+   ],
+   "top_scorer": {
+    "id": 411,
+    "name": "Erling Haaland"
+   },
+   "top_assists": {
+    "id": 399,
+    "name": "Rayan Cherki"
+   },
+   "manager_sacked": "Arbeloa"
+  },
+  "Tola": {
+   "top6": [
+    "Arsenal",
+    "Manchester City",
+    "Manchester United",
+    "Chelsea",
+    "Tottenham Hotspur",
+    "Liverpool"
+   ],
+   "relegation": [
+    "Coventry City",
+    "Hull City",
+    "Ipswich Town"
+   ],
+   "top_scorer": {
+    "id": 411,
+    "name": "Erling Haaland"
+   },
+   "top_assists": {
+    "id": 399,
+    "name": "Rayan Cherki"
+   },
+   "manager_sacked": "Lampard"
+  },
+  "Wax": {
+   "top6": [
+    "Arsenal",
+    "Chelsea",
+    "Liverpool",
+    "Manchester City",
+    "Manchester United",
+    "Tottenham Hotspur"
+   ],
+   "relegation": [
+    "Fulham",
+    "Ipswich Town",
+    "Hull City"
+   ],
+   "top_scorer": {
+    "id": 411,
+    "name": "Erling Haaland"
+   },
+   "top_assists": {
+    "id": 426,
+    "name": "Bruno Fernandes"
+   },
+   "manager_sacked": "Glasner"
+  }
+ }
+}

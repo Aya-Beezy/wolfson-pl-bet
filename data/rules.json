@@ -1,0 +1,9 @@
+{
+  "result_exact_top6": 5,
+  "top4_not_exact": 2,
+  "penalty_top4_outside_top6": -5,
+  "relegation_exact": 5,
+  "top_scorer": 10,
+  "top_assists": 10,
+  "manager_sacked": 10
+}
