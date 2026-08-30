@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-30T15:43:48Z",
+ "generated_at": "2026-08-30T20:18:08Z",
  "season": "2026/27",
  "gameweeks_played": 1,
  "next_gameweek": "Gameweek 2",
@@ -257,12 +257,20 @@
  ],
  "top_scorers": [
   {
+   "id": 426,
+   "name": "B.Fernandes",
+   "full_name": "Bruno Borges Fernandes",
+   "team": "Man Utd",
+   "value": 3,
+   "leading": true
+  },
+  {
    "id": 399,
    "name": "Cherki",
    "full_name": "Rayan Cherki",
    "team": "Man City",
    "value": 2,
-   "leading": true
+   "leading": false
   },
   {
    "id": 454,
@@ -270,7 +278,7 @@
    "full_name": "Anthony Elanga",
    "team": "Newcastle",
    "value": 2,
-   "leading": true
+   "leading": false
   },
   {
    "id": 411,
@@ -278,7 +286,7 @@
    "full_name": "Erling Haaland",
    "team": "Man City",
    "value": 2,
-   "leading": true
+   "leading": false
   },
   {
    "id": 123,
@@ -286,7 +294,7 @@
    "full_name": "Jack Hinshelwood",
    "team": "Brighton",
    "value": 2,
-   "leading": true
+   "leading": false
   },
   {
    "id": 165,
@@ -294,7 +302,7 @@
    "full_name": "João Pedro Junqueira de Jesus",
    "team": "Chelsea",
    "value": 2,
-   "leading": true
+   "leading": false
   },
   {
    "id": 154,
@@ -302,7 +310,7 @@
    "full_name": "Cole Palmer",
    "team": "Chelsea",
    "value": 2,
-   "leading": true
+   "leading": false
   },
   {
    "id": 279,
@@ -313,26 +321,18 @@
    "leading": false
   },
   {
+   "id": 320,
+   "name": "Akpom",
+   "full_name": "Chuba Akpom",
+   "team": "Ipswich Town",
+   "value": 1,
+   "leading": false
+  },
+  {
    "id": 551,
    "name": "Angulo",
    "full_name": "Nilson Angulo",
    "team": "Sunderland",
-   "value": 1,
-   "leading": false
-  },
-  {
-   "id": 249,
-   "name": "Barry",
-   "full_name": "Thierno Barry",
-   "team": "Everton",
-   "value": 1,
-   "leading": false
-  },
-  {
-   "id": 346,
-   "name": "Calvert-Lewin",
-   "full_name": "Dominic Calvert-Lewin",
-   "team": "Leeds",
    "value": 1,
    "leading": false
   }
@@ -351,6 +351,22 @@
    "name": "Cherki",
    "full_name": "Rayan Cherki",
    "team": "Man City",
+   "value": 2,
+   "leading": true
+  },
+  {
+   "id": 428,
+   "name": "Cunha",
+   "full_name": "Matheus Santos Carneiro da Cunha",
+   "team": "Man Utd",
+   "value": 2,
+   "leading": true
+  },
+  {
+   "id": 591,
+   "name": "Enciso",
+   "full_name": "Julio Enciso",
+   "team": "Ipswich Town",
    "value": 2,
    "leading": true
   },
@@ -401,22 +417,6 @@
    "team": "Everton",
    "value": 1,
    "leading": false
-  },
-  {
-   "id": 286,
-   "name": "Belloumi",
-   "full_name": "Mohamed Belloumi",
-   "team": "Hull City",
-   "value": 1,
-   "leading": false
-  },
-  {
-   "id": 8,
-   "name": "Calafiori",
-   "full_name": "Riccardo Calafiori",
-   "team": "Arsenal",
-   "value": 1,
-   "leading": false
   }
  ],
  "manager_sacked": {
@@ -429,7 +429,7 @@
    "breakdown": {
     "top6": 10,
     "relegation": 3,
-    "top_scorer": 2,
+    "top_scorer": 0,
     "top_assists": 0,
     "manager_sacked": 0
    },
@@ -509,8 +509,8 @@
     {
      "category": "top_scorer",
      "pick": "Erling Haaland",
-     "points": 2,
-     "status": "leading"
+     "points": 0,
+     "status": "behind"
     },
     {
      "category": "top_assists",
@@ -525,7 +525,7 @@
      "status": "pending"
     }
    ],
-   "total": 15,
+   "total": 13,
    "rank": 1
   },
   {
@@ -533,7 +533,7 @@
    "breakdown": {
     "top6": 2,
     "relegation": 6,
-    "top_scorer": 2,
+    "top_scorer": 0,
     "top_assists": 4,
     "manager_sacked": 0
    },
@@ -613,8 +613,8 @@
     {
      "category": "top_scorer",
      "pick": "Erling Haaland",
-     "points": 2,
-     "status": "leading"
+     "points": 0,
+     "status": "behind"
     },
     {
      "category": "top_assists",
@@ -629,7 +629,7 @@
      "status": "pending"
     }
    ],
-   "total": 14,
+   "total": 12,
    "rank": 2
   },
   {
@@ -637,7 +637,7 @@
    "breakdown": {
     "top6": 2,
     "relegation": 0,
-    "top_scorer": 2,
+    "top_scorer": 0,
     "top_assists": 4,
     "manager_sacked": 0
    },
@@ -717,8 +717,8 @@
     {
      "category": "top_scorer",
      "pick": "Erling Haaland",
-     "points": 2,
-     "status": "leading"
+     "points": 0,
+     "status": "behind"
     },
     {
      "category": "top_assists",
@@ -733,7 +733,7 @@
      "status": "pending"
     }
    ],
-   "total": 8,
+   "total": 6,
    "rank": 3
   },
   {
@@ -741,7 +741,7 @@
    "breakdown": {
     "top6": 2,
     "relegation": 0,
-    "top_scorer": 2,
+    "top_scorer": 0,
     "top_assists": 0,
     "manager_sacked": 0
    },
@@ -821,8 +821,8 @@
     {
      "category": "top_scorer",
      "pick": "Joao Pedro",
-     "points": 2,
-     "status": "leading"
+     "points": 0,
+     "status": "behind"
     },
     {
      "category": "top_assists",
@@ -837,7 +837,7 @@
      "status": "pending"
     }
    ],
-   "total": 4,
+   "total": 2,
    "rank": 4
   },
   {
@@ -845,7 +845,7 @@
    "breakdown": {
     "top6": 2,
     "relegation": 0,
-    "top_scorer": 2,
+    "top_scorer": 0,
     "top_assists": 0,
     "manager_sacked": 0
    },
@@ -925,8 +925,8 @@
     {
      "category": "top_scorer",
      "pick": "Erling Haaland",
-     "points": 2,
-     "status": "leading"
+     "points": 0,
+     "status": "behind"
     },
     {
      "category": "top_assists",
@@ -941,7 +941,7 @@
      "status": "pending"
     }
    ],
-   "total": 4,
+   "total": 2,
    "rank": 4
   }
  ],
