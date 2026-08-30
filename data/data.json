@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-30T10:55:31Z",
+ "generated_at": "2026-08-30T15:43:48Z",
  "season": "2026/27",
  "gameweeks_played": 1,
  "next_gameweek": "Gameweek 2",
@@ -289,6 +289,22 @@
    "leading": true
   },
   {
+   "id": 165,
+   "name": "João Pedro",
+   "full_name": "João Pedro Junqueira de Jesus",
+   "team": "Chelsea",
+   "value": 2,
+   "leading": true
+  },
+  {
+   "id": 154,
+   "name": "Palmer",
+   "full_name": "Cole Palmer",
+   "team": "Chelsea",
+   "value": 2,
+   "leading": true
+  },
+  {
    "id": 279,
    "name": "Ajayi",
    "full_name": "Semi Ajayi",
@@ -313,26 +329,10 @@
    "leading": false
   },
   {
-   "id": 313,
-   "name": "Clarke",
-   "full_name": "Jack Clarke",
-   "team": "Ipswich Town",
-   "value": 1,
-   "leading": false
-  },
-  {
-   "id": 115,
-   "name": "De Cuyper",
-   "full_name": "Maxim De Cuyper",
-   "team": "Brighton",
-   "value": 1,
-   "leading": false
-  },
-  {
-   "id": 236,
-   "name": "Dewsbury-Hall",
-   "full_name": "Kiernan Dewsbury-Hall",
-   "team": "Everton",
+   "id": 346,
+   "name": "Calvert-Lewin",
+   "full_name": "Dominic Calvert-Lewin",
+   "team": "Leeds",
    "value": 1,
    "leading": false
   }
@@ -371,6 +371,22 @@
    "leading": true
   },
   {
+   "id": 127,
+   "name": "Gomez",
+   "full_name": "Diego Gómez Amarilla",
+   "team": "Brighton",
+   "value": 2,
+   "leading": true
+  },
+  {
+   "id": 165,
+   "name": "João Pedro",
+   "full_name": "João Pedro Junqueira de Jesus",
+   "team": "Chelsea",
+   "value": 2,
+   "leading": true
+  },
+  {
    "id": 565,
    "name": "M.Sangaré",
    "full_name": "Mamadou Sangaré",
@@ -399,22 +415,6 @@
    "name": "Calafiori",
    "full_name": "Riccardo Calafiori",
    "team": "Arsenal",
-   "value": 1,
-   "leading": false
-  },
-  {
-   "id": 115,
-   "name": "De Cuyper",
-   "full_name": "Maxim De Cuyper",
-   "team": "Brighton",
-   "value": 1,
-   "leading": false
-  },
-  {
-   "id": 593,
-   "name": "Dedić",
-   "full_name": "Amar Dedic",
-   "team": "Newcastle",
    "value": 1,
    "leading": false
   }
@@ -737,6 +737,110 @@
    "rank": 3
   },
   {
+   "player": "Bharat",
+   "breakdown": {
+    "top6": 2,
+    "relegation": 0,
+    "top_scorer": 2,
+    "top_assists": 0,
+    "manager_sacked": 0
+   },
+   "lines": [
+    {
+     "category": "top6",
+     "slot": 1,
+     "pick": "Arsenal",
+     "actual": 2,
+     "points": 1,
+     "status": "near"
+    },
+    {
+     "category": "top6",
+     "slot": 2,
+     "pick": "Chelsea",
+     "actual": 6,
+     "points": 1,
+     "status": "near"
+    },
+    {
+     "category": "top6",
+     "slot": 3,
+     "pick": "Man Utd",
+     "actual": 17,
+     "points": 0,
+     "status": "miss"
+    },
+    {
+     "category": "top6",
+     "slot": 4,
+     "pick": "Man City",
+     "actual": 8,
+     "points": 0,
+     "status": "miss"
+    },
+    {
+     "category": "top6",
+     "slot": 5,
+     "pick": "Spurs",
+     "actual": 19,
+     "points": 0,
+     "status": "miss"
+    },
+    {
+     "category": "top6",
+     "slot": 6,
+     "pick": "Liverpool",
+     "actual": 10,
+     "points": 0,
+     "status": "miss"
+    },
+    {
+     "category": "relegation",
+     "slot": 18,
+     "pick": "Crystal Palace",
+     "actual": 16,
+     "points": 0,
+     "status": "miss"
+    },
+    {
+     "category": "relegation",
+     "slot": 19,
+     "pick": "Ipswich Town",
+     "actual": 7,
+     "points": 0,
+     "status": "miss"
+    },
+    {
+     "category": "relegation",
+     "slot": 20,
+     "pick": "Hull City",
+     "actual": 5,
+     "points": 0,
+     "status": "miss"
+    },
+    {
+     "category": "top_scorer",
+     "pick": "Joao Pedro",
+     "points": 2,
+     "status": "leading"
+    },
+    {
+     "category": "top_assists",
+     "pick": "Bruno Fernandes",
+     "points": 0,
+     "status": "behind"
+    },
+    {
+     "category": "manager_sacked",
+     "pick": "Iraola",
+     "points": 0,
+     "status": "pending"
+    }
+   ],
+   "total": 4,
+   "rank": 4
+  },
+  {
    "player": "Wax",
    "breakdown": {
     "top6": 2,
@@ -839,110 +943,6 @@
    ],
    "total": 4,
    "rank": 4
-  },
-  {
-   "player": "Bharat",
-   "breakdown": {
-    "top6": 2,
-    "relegation": 0,
-    "top_scorer": 0,
-    "top_assists": 0,
-    "manager_sacked": 0
-   },
-   "lines": [
-    {
-     "category": "top6",
-     "slot": 1,
-     "pick": "Arsenal",
-     "actual": 2,
-     "points": 1,
-     "status": "near"
-    },
-    {
-     "category": "top6",
-     "slot": 2,
-     "pick": "Chelsea",
-     "actual": 6,
-     "points": 1,
-     "status": "near"
-    },
-    {
-     "category": "top6",
-     "slot": 3,
-     "pick": "Man Utd",
-     "actual": 17,
-     "points": 0,
-     "status": "miss"
-    },
-    {
-     "category": "top6",
-     "slot": 4,
-     "pick": "Man City",
-     "actual": 8,
-     "points": 0,
-     "status": "miss"
-    },
-    {
-     "category": "top6",
-     "slot": 5,
-     "pick": "Spurs",
-     "actual": 19,
-     "points": 0,
-     "status": "miss"
-    },
-    {
-     "category": "top6",
-     "slot": 6,
-     "pick": "Liverpool",
-     "actual": 10,
-     "points": 0,
-     "status": "miss"
-    },
-    {
-     "category": "relegation",
-     "slot": 18,
-     "pick": "Crystal Palace",
-     "actual": 16,
-     "points": 0,
-     "status": "miss"
-    },
-    {
-     "category": "relegation",
-     "slot": 19,
-     "pick": "Ipswich Town",
-     "actual": 7,
-     "points": 0,
-     "status": "miss"
-    },
-    {
-     "category": "relegation",
-     "slot": 20,
-     "pick": "Hull City",
-     "actual": 5,
-     "points": 0,
-     "status": "miss"
-    },
-    {
-     "category": "top_scorer",
-     "pick": "Joao Pedro",
-     "points": 0,
-     "status": "behind"
-    },
-    {
-     "category": "top_assists",
-     "pick": "Bruno Fernandes",
-     "points": 0,
-     "status": "behind"
-    },
-    {
-     "category": "manager_sacked",
-     "pick": "Iraola",
-     "points": 0,
-     "status": "pending"
-    }
-   ],
-   "total": 2,
-   "rank": 5
   }
  ],
  "picks": {
