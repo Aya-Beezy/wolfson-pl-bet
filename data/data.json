@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-31T12:10:44Z",
+ "generated_at": "2026-08-31T22:11:28Z",
  "season": "2026/27",
  "gameweeks_played": 1,
  "next_gameweek": "Gameweek 2",
@@ -313,6 +313,14 @@
    "leading": false
   },
   {
+   "id": 12,
+   "name": "Saka",
+   "full_name": "Bukayo Saka",
+   "team": "Arsenal",
+   "value": 2,
+   "leading": false
+  },
+  {
    "id": 279,
    "name": "Ajayi",
    "full_name": "Semi Ajayi",
@@ -327,17 +335,17 @@
    "team": "Ipswich Town",
    "value": 1,
    "leading": false
-  },
-  {
-   "id": 551,
-   "name": "Angulo",
-   "full_name": "Nilson Angulo",
-   "team": "Sunderland",
-   "value": 1,
-   "leading": false
   }
  ],
  "top_assists": [
+  {
+   "id": 8,
+   "name": "Calafiori",
+   "full_name": "Riccardo Calafiori",
+   "team": "Arsenal",
+   "value": 2,
+   "leading": true
+  },
   {
    "id": 258,
    "name": "Castagne",
@@ -409,14 +417,6 @@
    "team": "Brentford",
    "value": 2,
    "leading": true
-  },
-  {
-   "id": 244,
-   "name": "Armstrong",
-   "full_name": "Harrison Armstrong",
-   "team": "Everton",
-   "value": 1,
-   "leading": false
   }
  ],
  "manager_sacked": {
