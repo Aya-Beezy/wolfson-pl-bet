@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-04T15:27:19Z",
+ "generated_at": "2026-09-04T20:02:13Z",
  "season": "2026/27",
  "gameweeks_played": 2,
  "next_gameweek": "Gameweek 3",
@@ -265,6 +265,14 @@
    "leading": true
   },
   {
+   "id": 379,
+   "name": "Isak",
+   "full_name": "Alexander Isak",
+   "team": "Liverpool",
+   "value": 3,
+   "leading": true
+  },
+  {
    "id": 399,
    "name": "Cherki",
    "full_name": "Rayan Cherki",
@@ -327,24 +335,24 @@
    "team": "Hull City",
    "value": 1,
    "leading": false
-  },
-  {
-   "id": 320,
-   "name": "Akpom",
-   "full_name": "Chuba Akpom",
-   "team": "Ipswich Town",
-   "value": 1,
-   "leading": false
   }
  ],
  "top_assists": [
+  {
+   "id": 367,
+   "name": "Gakpo",
+   "full_name": "Cody Gakpo",
+   "team": "Liverpool",
+   "value": 3,
+   "leading": true
+  },
   {
    "id": 8,
    "name": "Calafiori",
    "full_name": "Riccardo Calafiori",
    "team": "Arsenal",
    "value": 2,
-   "leading": true
+   "leading": false
   },
   {
    "id": 258,
@@ -352,7 +360,7 @@
    "full_name": "Timothy Castagne",
    "team": "Fulham",
    "value": 2,
-   "leading": true
+   "leading": false
   },
   {
    "id": 399,
@@ -360,7 +368,7 @@
    "full_name": "Rayan Cherki",
    "team": "Man City",
    "value": 2,
-   "leading": true
+   "leading": false
   },
   {
    "id": 428,
@@ -368,7 +376,7 @@
    "full_name": "Matheus Santos Carneiro da Cunha",
    "team": "Man Utd",
    "value": 2,
-   "leading": true
+   "leading": false
   },
   {
    "id": 591,
@@ -376,7 +384,7 @@
    "full_name": "Julio Enciso",
    "team": "Ipswich Town",
    "value": 2,
-   "leading": true
+   "leading": false
   },
   {
    "id": 79,
@@ -384,7 +392,7 @@
    "full_name": "Francisco Evanilson de Lima Barbosa",
    "team": "Bournemouth",
    "value": 2,
-   "leading": true
+   "leading": false
   },
   {
    "id": 398,
@@ -392,7 +400,7 @@
    "full_name": "Phil Foden",
    "team": "Man City",
    "value": 2,
-   "leading": true
+   "leading": false
   },
   {
    "id": 127,
@@ -400,7 +408,7 @@
    "full_name": "Diego Gómez Amarilla",
    "team": "Brighton",
    "value": 2,
-   "leading": true
+   "leading": false
   },
   {
    "id": 165,
@@ -408,15 +416,7 @@
    "full_name": "João Pedro Junqueira de Jesus",
    "team": "Chelsea",
    "value": 2,
-   "leading": true
-  },
-  {
-   "id": 565,
-   "name": "M.Sangaré",
-   "full_name": "Mamadou Sangaré",
-   "team": "Brentford",
-   "value": 2,
-   "leading": true
+   "leading": false
   }
  ],
  "manager_sacked": {
@@ -430,7 +430,7 @@
     "top6": 11,
     "relegation": 0,
     "top_scorer": 0,
-    "top_assists": 4,
+    "top_assists": 0,
     "manager_sacked": 0
    },
    "lines": [
@@ -515,8 +515,8 @@
     {
      "category": "top_assists",
      "pick": "Rayan Cherki",
-     "points": 4,
-     "status": "leading"
+     "points": 0,
+     "status": "behind"
     },
     {
      "category": "manager_sacked",
@@ -525,7 +525,7 @@
      "status": "pending"
     }
    ],
-   "total": 15,
+   "total": 11,
    "rank": 1
   },
   {
@@ -633,110 +633,6 @@
    "rank": 2
   },
   {
-   "player": "Majid",
-   "breakdown": {
-    "top6": 3,
-    "relegation": 0,
-    "top_scorer": 0,
-    "top_assists": 4,
-    "manager_sacked": 0
-   },
-   "lines": [
-    {
-     "category": "top6",
-     "slot": 1,
-     "pick": "Arsenal",
-     "actual": 2,
-     "points": 1,
-     "status": "near"
-    },
-    {
-     "category": "top6",
-     "slot": 2,
-     "pick": "Chelsea",
-     "actual": 4,
-     "points": 1,
-     "status": "near"
-    },
-    {
-     "category": "top6",
-     "slot": 3,
-     "pick": "Man Utd",
-     "actual": 10,
-     "points": 0,
-     "status": "miss"
-    },
-    {
-     "category": "top6",
-     "slot": 4,
-     "pick": "Liverpool",
-     "actual": 13,
-     "points": 0,
-     "status": "miss"
-    },
-    {
-     "category": "top6",
-     "slot": 5,
-     "pick": "Man City",
-     "actual": 1,
-     "points": 1,
-     "status": "near"
-    },
-    {
-     "category": "top6",
-     "slot": 6,
-     "pick": "Spurs",
-     "actual": 20,
-     "points": 0,
-     "status": "miss"
-    },
-    {
-     "category": "relegation",
-     "slot": 18,
-     "pick": "Hull City",
-     "actual": 3,
-     "points": 0,
-     "status": "miss"
-    },
-    {
-     "category": "relegation",
-     "slot": 19,
-     "pick": "Leeds",
-     "actual": 8,
-     "points": 0,
-     "status": "miss"
-    },
-    {
-     "category": "relegation",
-     "slot": 20,
-     "pick": "Ipswich Town",
-     "actual": 12,
-     "points": 0,
-     "status": "miss"
-    },
-    {
-     "category": "top_scorer",
-     "pick": "Erling Haaland",
-     "points": 0,
-     "status": "behind"
-    },
-    {
-     "category": "top_assists",
-     "pick": "Rayan Cherki",
-     "points": 4,
-     "status": "leading"
-    },
-    {
-     "category": "manager_sacked",
-     "pick": "Arbeloa",
-     "points": 0,
-     "status": "pending"
-    }
-   ],
-   "total": 7,
-   "rank": 3
-  },
-  {
    "player": "Akin",
    "breakdown": {
     "top6": 3,
@@ -838,7 +734,111 @@
     }
    ],
    "total": 3,
-   "rank": 4
+   "rank": 3
+  },
+  {
+   "player": "Majid",
+   "breakdown": {
+    "top6": 3,
+    "relegation": 0,
+    "top_scorer": 0,
+    "top_assists": 0,
+    "manager_sacked": 0
+   },
+   "lines": [
+    {
+     "category": "top6",
+     "slot": 1,
+     "pick": "Arsenal",
+     "actual": 2,
+     "points": 1,
+     "status": "near"
+    },
+    {
+     "category": "top6",
+     "slot": 2,
+     "pick": "Chelsea",
+     "actual": 4,
+     "points": 1,
+     "status": "near"
+    },
+    {
+     "category": "top6",
+     "slot": 3,
+     "pick": "Man Utd",
+     "actual": 10,
+     "points": 0,
+     "status": "miss"
+    },
+    {
+     "category": "top6",
+     "slot": 4,
+     "pick": "Liverpool",
+     "actual": 13,
+     "points": 0,
+     "status": "miss"
+    },
+    {
+     "category": "top6",
+     "slot": 5,
+     "pick": "Man City",
+     "actual": 1,
+     "points": 1,
+     "status": "near"
+    },
+    {
+     "category": "top6",
+     "slot": 6,
+     "pick": "Spurs",
+     "actual": 20,
+     "points": 0,
+     "status": "miss"
+    },
+    {
+     "category": "relegation",
+     "slot": 18,
+     "pick": "Hull City",
+     "actual": 3,
+     "points": 0,
+     "status": "miss"
+    },
+    {
+     "category": "relegation",
+     "slot": 19,
+     "pick": "Leeds",
+     "actual": 8,
+     "points": 0,
+     "status": "miss"
+    },
+    {
+     "category": "relegation",
+     "slot": 20,
+     "pick": "Ipswich Town",
+     "actual": 12,
+     "points": 0,
+     "status": "miss"
+    },
+    {
+     "category": "top_scorer",
+     "pick": "Erling Haaland",
+     "points": 0,
+     "status": "behind"
+    },
+    {
+     "category": "top_assists",
+     "pick": "Rayan Cherki",
+     "points": 0,
+     "status": "behind"
+    },
+    {
+     "category": "manager_sacked",
+     "pick": "Arbeloa",
+     "points": 0,
+     "status": "pending"
+    }
+   ],
+   "total": 3,
+   "rank": 3
   },
   {
    "player": "Wax",
@@ -942,7 +942,7 @@
     }
    ],
    "total": 3,
-   "rank": 4
+   "rank": 3
   }
  ],
  "picks": {
