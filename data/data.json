@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-05T14:15:01Z",
+ "generated_at": "2026-09-05T19:43:24Z",
  "season": "2026/27",
  "gameweeks_played": 2,
  "next_gameweek": "Gameweek 3",
@@ -265,6 +265,14 @@
    "leading": true
   },
   {
+   "id": 411,
+   "name": "Haaland",
+   "full_name": "Erling Haaland",
+   "team": "Man City",
+   "value": 3,
+   "leading": true
+  },
+  {
    "id": 379,
    "name": "Isak",
    "full_name": "Alexander Isak",
@@ -289,18 +297,18 @@
    "leading": false
   },
   {
-   "id": 411,
-   "name": "Haaland",
-   "full_name": "Erling Haaland",
-   "team": "Man City",
-   "value": 2,
-   "leading": false
-  },
-  {
    "id": 123,
    "name": "Hinshelwood",
    "full_name": "Jack Hinshelwood",
    "team": "Brighton",
+   "value": 2,
+   "leading": false
+  },
+  {
+   "id": 98,
+   "name": "Janelt",
+   "full_name": "Vitaly Janelt",
+   "team": "Brentford",
    "value": 2,
    "leading": false
   },
@@ -313,26 +321,18 @@
    "leading": false
   },
   {
-   "id": 154,
-   "name": "Palmer",
-   "full_name": "Cole Palmer",
-   "team": "Chelsea",
+   "id": 268,
+   "name": "King",
+   "full_name": "Josh King",
+   "team": "Fulham",
    "value": 2,
    "leading": false
   },
   {
-   "id": 12,
-   "name": "Saka",
-   "full_name": "Bukayo Saka",
-   "team": "Arsenal",
-   "value": 2,
-   "leading": false
-  },
-  {
-   "id": 68,
-   "name": "Tavernier",
-   "full_name": "Marcus Tavernier",
-   "team": "Bournemouth",
+   "id": 204,
+   "name": "Mitchell",
+   "full_name": "Tyrick Mitchell",
+   "team": "Crystal Palace",
    "value": 2,
    "leading": false
   }
@@ -379,6 +379,14 @@
    "leading": false
   },
   {
+   "id": 115,
+   "name": "De Cuyper",
+   "full_name": "Maxim De Cuyper",
+   "team": "Brighton",
+   "value": 2,
+   "leading": false
+  },
+  {
    "id": 591,
    "name": "Enciso",
    "full_name": "Julio Enciso",
@@ -409,14 +417,6 @@
    "team": "Brighton",
    "value": 2,
    "leading": false
-  },
-  {
-   "id": 165,
-   "name": "João Pedro",
-   "full_name": "João Pedro Junqueira de Jesus",
-   "team": "Chelsea",
-   "value": 2,
-   "leading": false
   }
  ],
  "manager_sacked": {
@@ -429,7 +429,7 @@
    "breakdown": {
     "top6": 11,
     "relegation": 0,
-    "top_scorer": 0,
+    "top_scorer": 2,
     "top_assists": 0,
     "manager_sacked": 0
    },
@@ -509,8 +509,8 @@
     {
      "category": "top_scorer",
      "pick": "Erling Haaland",
-     "points": 0,
-     "status": "behind"
+     "points": 2,
+     "status": "leading"
     },
     {
      "category": "top_assists",
@@ -525,7 +525,7 @@
      "status": "pending"
     }
    ],
-   "total": 11,
+   "total": 13,
    "rank": 1
   },
   {
@@ -637,7 +637,7 @@
    "breakdown": {
     "top6": 3,
     "relegation": 0,
-    "top_scorer": 0,
+    "top_scorer": 2,
     "top_assists": 0,
     "manager_sacked": 0
    },
@@ -717,8 +717,8 @@
     {
      "category": "top_scorer",
      "pick": "Erling Haaland",
-     "points": 0,
-     "status": "behind"
+     "points": 2,
+     "status": "leading"
     },
     {
      "category": "top_assists",
@@ -733,7 +733,7 @@
      "status": "pending"
     }
    ],
-   "total": 3,
+   "total": 5,
    "rank": 3
   },
   {
@@ -741,7 +741,7 @@
    "breakdown": {
     "top6": 3,
     "relegation": 0,
-    "top_scorer": 0,
+    "top_scorer": 2,
     "top_assists": 0,
     "manager_sacked": 0
    },
@@ -821,8 +821,8 @@
     {
      "category": "top_scorer",
      "pick": "Erling Haaland",
-     "points": 0,
-     "status": "behind"
+     "points": 2,
+     "status": "leading"
     },
     {
      "category": "top_assists",
@@ -837,7 +837,7 @@
      "status": "pending"
     }
    ],
-   "total": 3,
+   "total": 5,
    "rank": 3
   },
   {
@@ -845,7 +845,7 @@
    "breakdown": {
     "top6": 3,
     "relegation": 0,
-    "top_scorer": 0,
+    "top_scorer": 2,
     "top_assists": 0,
     "manager_sacked": 0
    },
@@ -925,8 +925,8 @@
     {
      "category": "top_scorer",
      "pick": "Erling Haaland",
-     "points": 0,
-     "status": "behind"
+     "points": 2,
+     "status": "leading"
     },
     {
      "category": "top_assists",
@@ -941,7 +941,7 @@
      "status": "pending"
     }
    ],
-   "total": 3,
+   "total": 5,
    "rank": 3
   }
  ],
