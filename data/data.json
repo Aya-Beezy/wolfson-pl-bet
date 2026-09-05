@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-05T09:39:55Z",
+ "generated_at": "2026-09-05T14:15:01Z",
  "season": "2026/27",
  "gameweeks_played": 2,
  "next_gameweek": "Gameweek 3",
@@ -329,11 +329,11 @@
    "leading": false
   },
   {
-   "id": 279,
-   "name": "Ajayi",
-   "full_name": "Semi Ajayi",
-   "team": "Hull City",
-   "value": 1,
+   "id": 68,
+   "name": "Tavernier",
+   "full_name": "Marcus Tavernier",
+   "team": "Bournemouth",
+   "value": 2,
    "leading": false
   }
  ],
