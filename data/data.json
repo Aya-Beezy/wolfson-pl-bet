@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-06T09:54:59Z",
+ "generated_at": "2026-09-06T14:38:32Z",
  "season": "2026/27",
  "gameweeks_played": 2,
  "next_gameweek": "Gameweek 3",
@@ -329,10 +329,10 @@
    "leading": false
   },
   {
-   "id": 204,
-   "name": "Mitchell",
-   "full_name": "Tyrick Mitchell",
-   "team": "Crystal Palace",
+   "id": 427,
+   "name": "Mbeumo",
+   "full_name": "Bryan Mbeumo",
+   "team": "Man Utd",
    "value": 2,
    "leading": false
   }
