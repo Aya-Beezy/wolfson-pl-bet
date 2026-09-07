@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-09-07T11:03:31Z",
+ "generated_at": "2026-09-07T16:51:49Z",
  "season": "2026/27",
- "gameweeks_played": 2,
- "next_gameweek": "Gameweek 3",
+ "gameweeks_played": 3,
+ "next_gameweek": "Gameweek 4",
  "rules": {
   "champion_exact": 2,
   "top6_exact": 9,
