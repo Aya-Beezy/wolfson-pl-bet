@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-12T09:48:23Z",
+ "generated_at": "2026-09-12T14:39:01Z",
  "season": "2026/27",
  "gameweeks_played": 3,
  "next_gameweek": "Gameweek 4",
@@ -281,6 +281,22 @@
    "leading": true
   },
   {
+   "id": 40,
+   "name": "Rogers",
+   "full_name": "Morgan Rogers",
+   "team": "Chelsea",
+   "value": 3,
+   "leading": true
+  },
+  {
+   "id": 286,
+   "name": "Belloumi",
+   "full_name": "Mohamed Belloumi",
+   "team": "Hull City",
+   "value": 2,
+   "leading": false
+  },
+  {
    "id": 399,
    "name": "Cherki",
    "full_name": "Rayan Cherki",
@@ -293,6 +309,14 @@
    "name": "Elanga",
    "full_name": "Anthony Elanga",
    "team": "Newcastle",
+   "value": 2,
+   "leading": false
+  },
+  {
+   "id": 316,
+   "name": "Emersonn",
+   "full_name": "Emersonn Correia da Silva",
+   "team": "Ipswich Town",
    "value": 2,
    "leading": false
   },
@@ -311,30 +335,6 @@
    "team": "Brighton",
    "value": 2,
    "leading": false
-  },
-  {
-   "id": 98,
-   "name": "Janelt",
-   "full_name": "Vitaly Janelt",
-   "team": "Brentford",
-   "value": 2,
-   "leading": false
-  },
-  {
-   "id": 165,
-   "name": "João Pedro",
-   "full_name": "João Pedro Junqueira de Jesus",
-   "team": "Chelsea",
-   "value": 2,
-   "leading": false
-  },
-  {
-   "id": 268,
-   "name": "King",
-   "full_name": "Josh King",
-   "team": "Fulham",
-   "value": 2,
-   "leading": false
   }
  ],
  "top_assists": [
@@ -343,6 +343,14 @@
    "name": "Gakpo",
    "full_name": "Cody Gakpo",
    "team": "Liverpool",
+   "value": 3,
+   "leading": true
+  },
+  {
+   "id": 165,
+   "name": "João Pedro",
+   "full_name": "João Pedro Junqueira de Jesus",
+   "team": "Chelsea",
    "value": 3,
    "leading": true
   },
@@ -407,14 +415,6 @@
    "name": "Foden",
    "full_name": "Phil Foden",
    "team": "Man City",
-   "value": 2,
-   "leading": false
-  },
-  {
-   "id": 127,
-   "name": "Gomez",
-   "full_name": "Diego Gómez Amarilla",
-   "team": "Brighton",
    "value": 2,
    "leading": false
   }
