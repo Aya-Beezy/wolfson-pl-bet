@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-13T10:48:26Z",
+ "generated_at": "2026-09-13T15:18:46Z",
  "season": "2026/27",
  "gameweeks_played": 3,
  "next_gameweek": "Gameweek 4",
@@ -339,6 +339,14 @@
  ],
  "top_assists": [
   {
+   "id": 115,
+   "name": "De Cuyper",
+   "full_name": "Maxim De Cuyper",
+   "team": "Brighton",
+   "value": 3,
+   "leading": true
+  },
+  {
    "id": 79,
    "name": "Evanilson",
    "full_name": "Francisco Evanilson de Lima Barbosa",
@@ -351,6 +359,14 @@
    "name": "Gakpo",
    "full_name": "Cody Gakpo",
    "team": "Liverpool",
+   "value": 3,
+   "leading": true
+  },
+  {
+   "id": 124,
+   "name": "Groß",
+   "full_name": "Pascal Groß",
+   "team": "Brighton",
    "value": 3,
    "leading": true
   },
@@ -399,22 +415,6 @@
    "name": "Cunha",
    "full_name": "Matheus Santos Carneiro da Cunha",
    "team": "Man Utd",
-   "value": 2,
-   "leading": false
-  },
-  {
-   "id": 305,
-   "name": "Davis",
-   "full_name": "Leif Davis",
-   "team": "Ipswich Town",
-   "value": 2,
-   "leading": false
-  },
-  {
-   "id": 115,
-   "name": "De Cuyper",
-   "full_name": "Maxim De Cuyper",
-   "team": "Brighton",
    "value": 2,
    "leading": false
   }
