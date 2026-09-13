@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-12T19:52:13Z",
+ "generated_at": "2026-09-13T02:08:08Z",
  "season": "2026/27",
  "gameweeks_played": 3,
  "next_gameweek": "Gameweek 4",
@@ -297,6 +297,14 @@
    "leading": true
   },
   {
+   "id": 12,
+   "name": "Saka",
+   "full_name": "Bukayo Saka",
+   "team": "Arsenal",
+   "value": 3,
+   "leading": true
+  },
+  {
    "id": 94,
    "name": "Schade",
    "full_name": "Kevin Schade",
@@ -325,14 +333,6 @@
    "name": "Cherki",
    "full_name": "Rayan Cherki",
    "team": "Man City",
-   "value": 2,
-   "leading": false
-  },
-  {
-   "id": 305,
-   "name": "Davis",
-   "full_name": "Leif Davis",
-   "team": "Ipswich Town",
    "value": 2,
    "leading": false
   }
