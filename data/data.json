@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-14T17:15:30Z",
+ "generated_at": "2026-09-14T21:11:21Z",
  "season": "2026/27",
  "gameweeks_played": 3,
  "next_gameweek": "Gameweek 4",
@@ -329,10 +329,10 @@
    "leading": false
   },
   {
-   "id": 399,
-   "name": "Cherki",
-   "full_name": "Rayan Cherki",
-   "team": "Man City",
+   "id": 330,
+   "name": "Bogle",
+   "full_name": "Jayden Bogle",
+   "team": "Leeds",
    "value": 2,
    "leading": false
   }
