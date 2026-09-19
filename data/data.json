@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-19T09:57:51Z",
+ "generated_at": "2026-09-19T15:02:40Z",
  "season": "2026/27",
  "gameweeks_played": 4,
  "next_gameweek": "Gameweek 5",
@@ -273,6 +273,14 @@
    "leading": false
   },
   {
+   "id": 124,
+   "name": "Groß",
+   "full_name": "Pascal Groß",
+   "team": "Brighton",
+   "value": 3,
+   "leading": false
+  },
+  {
    "id": 379,
    "name": "Isak",
    "full_name": "Alexander Isak",
@@ -321,23 +329,23 @@
    "leading": false
   },
   {
-   "id": 286,
-   "name": "Belloumi",
-   "full_name": "Mohamed Belloumi",
-   "team": "Hull City",
-   "value": 2,
-   "leading": false
-  },
-  {
-   "id": 330,
-   "name": "Bogle",
-   "full_name": "Jayden Bogle",
-   "team": "Leeds",
+   "id": 249,
+   "name": "Barry",
+   "full_name": "Thierno Barry",
+   "team": "Everton",
    "value": 2,
    "leading": false
   }
  ],
  "top_assists": [
+  {
+   "id": 453,
+   "name": "Barnes",
+   "full_name": "Harvey Barnes",
+   "team": "Newcastle",
+   "value": 3,
+   "leading": true
+  },
   {
    "id": 115,
    "name": "De Cuyper",
@@ -359,6 +367,14 @@
    "name": "Gakpo",
    "full_name": "Cody Gakpo",
    "team": "Liverpool",
+   "value": 3,
+   "leading": true
+  },
+  {
+   "id": 127,
+   "name": "Gomez",
+   "full_name": "Diego Gómez Amarilla",
+   "team": "Brighton",
    "value": 3,
    "leading": true
   },
@@ -387,34 +403,18 @@
    "leading": true
   },
   {
+   "id": 138,
+   "name": "Kostoulas",
+   "full_name": "Charalampos Kostoulas",
+   "team": "Brighton",
+   "value": 3,
+   "leading": true
+  },
+  {
    "id": 8,
    "name": "Calafiori",
    "full_name": "Riccardo Calafiori",
    "team": "Arsenal",
-   "value": 2,
-   "leading": false
-  },
-  {
-   "id": 258,
-   "name": "Castagne",
-   "full_name": "Timothy Castagne",
-   "team": "Fulham",
-   "value": 2,
-   "leading": false
-  },
-  {
-   "id": 399,
-   "name": "Cherki",
-   "full_name": "Rayan Cherki",
-   "team": "Man City",
-   "value": 2,
-   "leading": false
-  },
-  {
-   "id": 428,
-   "name": "Cunha",
-   "full_name": "Matheus Santos Carneiro da Cunha",
-   "team": "Man Utd",
    "value": 2,
    "leading": false
   }
