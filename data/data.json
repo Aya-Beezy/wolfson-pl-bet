@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-20T10:18:11Z",
+ "generated_at": "2026-09-20T15:06:46Z",
  "season": "2026/27",
  "gameweeks_played": 4,
  "next_gameweek": "Gameweek 5",
@@ -261,8 +261,16 @@
    "name": "Haaland",
    "full_name": "Erling Haaland",
    "team": "Man City",
-   "value": 4,
+   "value": 5,
    "leading": true
+  },
+  {
+   "id": 379,
+   "name": "Isak",
+   "full_name": "Alexander Isak",
+   "team": "Liverpool",
+   "value": 4,
+   "leading": false
   },
   {
    "id": 426,
@@ -273,18 +281,26 @@
    "leading": false
   },
   {
-   "id": 124,
-   "name": "Groß",
-   "full_name": "Pascal Groß",
-   "team": "Brighton",
+   "id": 552,
+   "name": "Brobbey",
+   "full_name": "Brian Brobbey",
+   "team": "Sunderland",
    "value": 3,
    "leading": false
   },
   {
-   "id": 379,
-   "name": "Isak",
-   "full_name": "Alexander Isak",
-   "team": "Liverpool",
+   "id": 399,
+   "name": "Cherki",
+   "full_name": "Rayan Cherki",
+   "team": "Man City",
+   "value": 3,
+   "leading": false
+  },
+  {
+   "id": 124,
+   "name": "Groß",
+   "full_name": "Pascal Groß",
+   "team": "Brighton",
    "value": 3,
    "leading": false
   },
@@ -318,22 +334,6 @@
    "full_name": "Kevin Schade",
    "team": "Brentford",
    "value": 3,
-   "leading": false
-  },
-  {
-   "id": 68,
-   "name": "Tavernier",
-   "full_name": "Marcus Tavernier",
-   "team": "Bournemouth",
-   "value": 3,
-   "leading": false
-  },
-  {
-   "id": 249,
-   "name": "Barry",
-   "full_name": "Thierno Barry",
-   "team": "Everton",
-   "value": 2,
    "leading": false
   }
  ],
@@ -387,6 +387,14 @@
    "leading": false
   },
   {
+   "id": 391,
+   "name": "Gvardiol",
+   "full_name": "Joško Gvardiol",
+   "team": "Man City",
+   "value": 3,
+   "leading": false
+  },
+  {
    "id": 165,
    "name": "João Pedro",
    "full_name": "João Pedro Junqueira de Jesus",
@@ -408,14 +416,6 @@
    "full_name": "Charalampos Kostoulas",
    "team": "Brighton",
    "value": 3,
-   "leading": false
-  },
-  {
-   "id": 286,
-   "name": "Belloumi",
-   "full_name": "Mohamed Belloumi",
-   "team": "Hull City",
-   "value": 2,
    "leading": false
   }
  ],
