@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-10T16:36:34Z",
+ "generated_at": "2026-10-10T20:53:21Z",
  "season": "2026/27",
  "gameweeks_played": 5,
  "next_gameweek": "Gameweek 6",
@@ -321,18 +321,18 @@
    "leading": false
   },
   {
-   "id": 12,
-   "name": "Saka",
-   "full_name": "Bukayo Saka",
-   "team": "Arsenal",
+   "id": 427,
+   "name": "Mbeumo",
+   "full_name": "Bryan Mbeumo",
+   "team": "Man Utd",
    "value": 3,
    "leading": false
   },
   {
-   "id": 94,
-   "name": "Schade",
-   "full_name": "Kevin Schade",
-   "team": "Brentford",
+   "id": 12,
+   "name": "Saka",
+   "full_name": "Bukayo Saka",
+   "team": "Arsenal",
    "value": 3,
    "leading": false
   }
@@ -359,6 +359,14 @@
    "name": "Barnes",
    "full_name": "Harvey Barnes",
    "team": "Newcastle",
+   "value": 3,
+   "leading": false
+  },
+  {
+   "id": 428,
+   "name": "Cunha",
+   "full_name": "Matheus Santos Carneiro da Cunha",
+   "team": "Man Utd",
    "value": 3,
    "leading": false
   },
@@ -407,14 +415,6 @@
    "name": "João Pedro",
    "full_name": "João Pedro Junqueira de Jesus",
    "team": "Chelsea",
-   "value": 3,
-   "leading": false
-  },
-  {
-   "id": 214,
-   "name": "Kamada",
-   "full_name": "Daichi Kamada",
-   "team": "Crystal Palace",
    "value": 3,
    "leading": false
   }
