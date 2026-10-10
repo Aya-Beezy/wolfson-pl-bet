@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-10T11:35:51Z",
+ "generated_at": "2026-10-10T16:36:34Z",
  "season": "2026/27",
  "gameweeks_played": 5,
  "next_gameweek": "Gameweek 6",
@@ -265,10 +265,26 @@
    "leading": true
   },
   {
+   "id": 165,
+   "name": "João Pedro",
+   "full_name": "João Pedro Junqueira de Jesus",
+   "team": "Chelsea",
+   "value": 5,
+   "leading": true
+  },
+  {
    "id": 379,
    "name": "Isak",
    "full_name": "Alexander Isak",
    "team": "Liverpool",
+   "value": 4,
+   "leading": false
+  },
+  {
+   "id": 40,
+   "name": "Rogers",
+   "full_name": "Morgan Rogers",
+   "team": "Chelsea",
    "value": 4,
    "leading": false
   },
@@ -305,22 +321,6 @@
    "leading": false
   },
   {
-   "id": 165,
-   "name": "João Pedro",
-   "full_name": "João Pedro Junqueira de Jesus",
-   "team": "Chelsea",
-   "value": 3,
-   "leading": false
-  },
-  {
-   "id": 40,
-   "name": "Rogers",
-   "full_name": "Morgan Rogers",
-   "team": "Chelsea",
-   "value": 3,
-   "leading": false
-  },
-  {
    "id": 12,
    "name": "Saka",
    "full_name": "Bukayo Saka",
@@ -343,8 +343,16 @@
    "name": "Groß",
    "full_name": "Pascal Groß",
    "team": "Brighton",
-   "value": 4,
+   "value": 5,
    "leading": true
+  },
+  {
+   "id": 154,
+   "name": "Palmer",
+   "full_name": "Cole Palmer",
+   "team": "Chelsea",
+   "value": 4,
+   "leading": false
   },
   {
    "id": 453,
@@ -407,14 +415,6 @@
    "name": "Kamada",
    "full_name": "Daichi Kamada",
    "team": "Crystal Palace",
-   "value": 3,
-   "leading": false
-  },
-  {
-   "id": 138,
-   "name": "Kostoulas",
-   "full_name": "Charalampos Kostoulas",
-   "team": "Brighton",
    "value": 3,
    "leading": false
   }
@@ -533,7 +533,7 @@
    "breakdown": {
     "top6": 11,
     "relegation": 0,
-    "top_scorer": 0,
+    "top_scorer": 2,
     "top_assists": 0,
     "manager_sacked": 0
    },
@@ -613,8 +613,8 @@
     {
      "category": "top_scorer",
      "pick": "Joao Pedro",
-     "points": 0,
-     "status": "behind"
+     "points": 2,
+     "status": "leading"
     },
     {
      "category": "top_assists",
@@ -629,7 +629,7 @@
      "status": "pending"
     }
    ],
-   "total": 11,
+   "total": 13,
    "rank": 2
   },
   {
