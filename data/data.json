@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-11T11:49:18Z",
+ "generated_at": "2026-10-11T17:01:54Z",
  "season": "2026/27",
  "gameweeks_played": 5,
  "next_gameweek": "Gameweek 6",
@@ -261,7 +261,7 @@
    "name": "Haaland",
    "full_name": "Erling Haaland",
    "team": "Man City",
-   "value": 5,
+   "value": 6,
    "leading": true
   },
   {
@@ -270,7 +270,7 @@
    "full_name": "João Pedro Junqueira de Jesus",
    "team": "Chelsea",
    "value": 5,
-   "leading": true
+   "leading": false
   },
   {
    "id": 379,
@@ -297,6 +297,22 @@
    "leading": false
   },
   {
+   "id": 249,
+   "name": "Barry",
+   "full_name": "Thierno Barry",
+   "team": "Everton",
+   "value": 3,
+   "leading": false
+  },
+  {
+   "id": 286,
+   "name": "Belloumi",
+   "full_name": "Mohamed Belloumi",
+   "team": "Hull City",
+   "value": 3,
+   "leading": false
+  },
+  {
    "id": 552,
    "name": "Brobbey",
    "full_name": "Brian Brobbey",
@@ -317,22 +333,6 @@
    "name": "Groß",
    "full_name": "Pascal Groß",
    "team": "Brighton",
-   "value": 3,
-   "leading": false
-  },
-  {
-   "id": 427,
-   "name": "Mbeumo",
-   "full_name": "Bryan Mbeumo",
-   "team": "Man Utd",
-   "value": 3,
-   "leading": false
-  },
-  {
-   "id": 12,
-   "name": "Saka",
-   "full_name": "Bukayo Saka",
-   "team": "Arsenal",
    "value": 3,
    "leading": false
   }
@@ -533,7 +533,7 @@
    "breakdown": {
     "top6": 11,
     "relegation": 0,
-    "top_scorer": 2,
+    "top_scorer": 0,
     "top_assists": 0,
     "manager_sacked": 0
    },
@@ -613,8 +613,8 @@
     {
      "category": "top_scorer",
      "pick": "Joao Pedro",
-     "points": 2,
-     "status": "leading"
+     "points": 0,
+     "status": "behind"
     },
     {
      "category": "top_assists",
@@ -629,7 +629,7 @@
      "status": "pending"
     }
    ],
-   "total": 13,
+   "total": 11,
    "rank": 2
   },
   {
