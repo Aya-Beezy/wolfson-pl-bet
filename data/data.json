@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-17T14:39:58Z",
+ "generated_at": "2026-10-17T19:51:18Z",
  "season": "2026/27",
  "gameweeks_played": 6,
  "next_gameweek": "Gameweek 7",
@@ -261,8 +261,16 @@
    "name": "Haaland",
    "full_name": "Erling Haaland",
    "team": "Man City",
-   "value": 6,
+   "value": 8,
    "leading": true
+  },
+  {
+   "id": 379,
+   "name": "Isak",
+   "full_name": "Alexander Isak",
+   "team": "Liverpool",
+   "value": 5,
+   "leading": false
   },
   {
    "id": 165,
@@ -277,14 +285,6 @@
    "name": "Cherki",
    "full_name": "Rayan Cherki",
    "team": "Man City",
-   "value": 4,
-   "leading": false
-  },
-  {
-   "id": 379,
-   "name": "Isak",
-   "full_name": "Alexander Isak",
-   "team": "Liverpool",
    "value": 4,
    "leading": false
   },
