@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-18T10:06:39Z",
+ "generated_at": "2026-10-18T15:06:09Z",
  "season": "2026/27",
  "gameweeks_played": 6,
  "next_gameweek": "Gameweek 7",
@@ -289,10 +289,26 @@
    "leading": false
   },
   {
+   "id": 427,
+   "name": "Mbeumo",
+   "full_name": "Bryan Mbeumo",
+   "team": "Man Utd",
+   "value": 4,
+   "leading": false
+  },
+  {
    "id": 40,
    "name": "Rogers",
    "full_name": "Morgan Rogers",
    "team": "Chelsea",
+   "value": 4,
+   "leading": false
+  },
+  {
+   "id": 68,
+   "name": "Tavernier",
+   "full_name": "Marcus Tavernier",
+   "team": "Bournemouth",
    "value": 4,
    "leading": false
   },
@@ -319,22 +335,6 @@
    "team": "Hull City",
    "value": 3,
    "leading": false
-  },
-  {
-   "id": 552,
-   "name": "Brobbey",
-   "full_name": "Brian Brobbey",
-   "team": "Sunderland",
-   "value": 3,
-   "leading": false
-  },
-  {
-   "id": 124,
-   "name": "Groß",
-   "full_name": "Pascal Groß",
-   "team": "Brighton",
-   "value": 3,
-   "leading": false
   }
  ],
  "top_assists": [
@@ -343,14 +343,30 @@
    "name": "Groß",
    "full_name": "Pascal Groß",
    "team": "Brighton",
-   "value": 5,
+   "value": 6,
    "leading": true
+  },
+  {
+   "id": 79,
+   "name": "Evanilson",
+   "full_name": "Francisco Evanilson de Lima Barbosa",
+   "team": "Bournemouth",
+   "value": 4,
+   "leading": false
   },
   {
    "id": 391,
    "name": "Gvardiol",
    "full_name": "Joško Gvardiol",
    "team": "Man City",
+   "value": 4,
+   "leading": false
+  },
+  {
+   "id": 138,
+   "name": "Kostoulas",
+   "full_name": "Charalampos Kostoulas",
+   "team": "Brighton",
    "value": 4,
    "leading": false
   },
@@ -387,14 +403,6 @@
    "leading": false
   },
   {
-   "id": 79,
-   "name": "Evanilson",
-   "full_name": "Francisco Evanilson de Lima Barbosa",
-   "team": "Bournemouth",
-   "value": 3,
-   "leading": false
-  },
-  {
    "id": 367,
    "name": "Gakpo",
    "full_name": "Cody Gakpo",
@@ -407,14 +415,6 @@
    "name": "Gomez",
    "full_name": "Diego Gómez Amarilla",
    "team": "Brighton",
-   "value": 3,
-   "leading": false
-  },
-  {
-   "id": 148,
-   "name": "Hato",
-   "full_name": "Jorrel Hato",
-   "team": "Chelsea",
    "value": 3,
    "leading": false
   }
