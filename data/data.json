@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-24T09:59:22Z",
+ "generated_at": "2026-10-24T15:04:24Z",
  "season": "2026/27",
  "gameweeks_played": 7,
  "next_gameweek": "Gameweek 8",
@@ -261,7 +261,7 @@
    "name": "Haaland",
    "full_name": "Erling Haaland",
    "team": "Man City",
-   "value": 8,
+   "value": 9,
    "leading": true
   },
   {
@@ -297,6 +297,14 @@
    "leading": false
   },
   {
+   "id": 166,
+   "name": "N.Jackson",
+   "full_name": "Nicolas Jackson",
+   "team": "Aston Villa",
+   "value": 4,
+   "leading": false
+  },
+  {
    "id": 40,
    "name": "Rogers",
    "full_name": "Morgan Rogers",
@@ -325,14 +333,6 @@
    "name": "Barry",
    "full_name": "Thierno Barry",
    "team": "Everton",
-   "value": 3,
-   "leading": false
-  },
-  {
-   "id": 286,
-   "name": "Belloumi",
-   "full_name": "Mohamed Belloumi",
-   "team": "Hull City",
    "value": 3,
    "leading": false
   }
@@ -367,6 +367,14 @@
    "name": "Kostoulas",
    "full_name": "Charalampos Kostoulas",
    "team": "Brighton",
+   "value": 4,
+   "leading": false
+  },
+  {
+   "id": 237,
+   "name": "Ndiaye",
+   "full_name": "Iliman Ndiaye",
+   "team": "Man City",
    "value": 4,
    "leading": false
   },
@@ -407,14 +415,6 @@
    "name": "De Cuyper",
    "full_name": "Maxim De Cuyper",
    "team": "Brighton",
-   "value": 3,
-   "leading": false
-  },
-  {
-   "id": 367,
-   "name": "Gakpo",
-   "full_name": "Cody Gakpo",
-   "team": "Liverpool",
    "value": 3,
    "leading": false
   }
