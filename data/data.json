@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-25T10:24:30Z",
+ "generated_at": "2026-10-25T15:16:31Z",
  "season": "2026/27",
  "gameweeks_played": 7,
  "next_gameweek": "Gameweek 8",
@@ -269,7 +269,7 @@
    "name": "Isak",
    "full_name": "Alexander Isak",
    "team": "Liverpool",
-   "value": 5,
+   "value": 6,
    "leading": false
   },
   {
@@ -277,6 +277,14 @@
    "name": "João Pedro",
    "full_name": "João Pedro Junqueira de Jesus",
    "team": "Chelsea",
+   "value": 5,
+   "leading": false
+  },
+  {
+   "id": 68,
+   "name": "Tavernier",
+   "full_name": "Marcus Tavernier",
+   "team": "Bournemouth",
    "value": 5,
    "leading": false
   },
@@ -309,14 +317,6 @@
    "name": "Rogers",
    "full_name": "Morgan Rogers",
    "team": "Chelsea",
-   "value": 4,
-   "leading": false
-  },
-  {
-   "id": 68,
-   "name": "Tavernier",
-   "full_name": "Marcus Tavernier",
-   "team": "Bournemouth",
    "value": 4,
    "leading": false
   },
@@ -395,6 +395,14 @@
    "leading": false
   },
   {
+   "id": 366,
+   "name": "Wirtz",
+   "full_name": "Florian Wirtz",
+   "team": "Liverpool",
+   "value": 4,
+   "leading": false
+  },
+  {
    "id": 453,
    "name": "Barnes",
    "full_name": "Harvey Barnes",
@@ -407,14 +415,6 @@
    "name": "Cunha",
    "full_name": "Matheus Santos Carneiro da Cunha",
    "team": "Man Utd",
-   "value": 3,
-   "leading": false
-  },
-  {
-   "id": 115,
-   "name": "De Cuyper",
-   "full_name": "Maxim De Cuyper",
-   "team": "Brighton",
    "value": 3,
    "leading": false
   }
