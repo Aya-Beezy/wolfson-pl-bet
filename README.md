@@ -70,6 +70,16 @@ Edit `data/manual.json`:
 
 Use the surname exactly as it appears in `picks.json`. Commit; the site updates itself.
 
+## Keeping the schedule alive
+
+GitHub pauses scheduled workflows on a public repo after 60 days with no repository
+activity, and it is not documented whether the bot's own data commits count. A person
+must push a commit at least every 60 days until the season ends. Log each one here.
+
+| Date | By |
+|---|---|
+| 2026-10-26 | Bharat |
+
 ## Running it locally
 
 ```bash
