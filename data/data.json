@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-31T11:25:53Z",
+ "generated_at": "2026-10-31T16:31:50Z",
  "season": "2026/27",
  "gameweeks_played": 8,
  "next_gameweek": "Gameweek 9",
@@ -281,6 +281,14 @@
    "leading": false
   },
   {
+   "id": 40,
+   "name": "Rogers",
+   "full_name": "Morgan Rogers",
+   "team": "Chelsea",
+   "value": 5,
+   "leading": false
+  },
+  {
    "id": 68,
    "name": "Tavernier",
    "full_name": "Marcus Tavernier",
@@ -293,6 +301,14 @@
    "name": "Cherki",
    "full_name": "Rayan Cherki",
    "team": "Man City",
+   "value": 4,
+   "leading": false
+  },
+  {
+   "id": 79,
+   "name": "Evanilson",
+   "full_name": "Francisco Evanilson de Lima Barbosa",
+   "team": "Bournemouth",
    "value": 4,
    "leading": false
   },
@@ -313,26 +329,10 @@
    "leading": false
   },
   {
-   "id": 40,
-   "name": "Rogers",
-   "full_name": "Morgan Rogers",
-   "team": "Chelsea",
-   "value": 4,
-   "leading": false
-  },
-  {
-   "id": 426,
-   "name": "B.Fernandes",
-   "full_name": "Bruno Borges Fernandes",
-   "team": "Man Utd",
-   "value": 3,
-   "leading": false
-  },
-  {
-   "id": 249,
-   "name": "Barry",
-   "full_name": "Thierno Barry",
-   "team": "Everton",
+   "id": 129,
+   "name": "Ayari",
+   "full_name": "Yasin Ayari",
+   "team": "Brighton",
    "value": 3,
    "leading": false
   }
@@ -345,6 +345,14 @@
    "team": "Brighton",
    "value": 6,
    "leading": true
+  },
+  {
+   "id": 115,
+   "name": "De Cuyper",
+   "full_name": "Maxim De Cuyper",
+   "team": "Brighton",
+   "value": 4,
+   "leading": false
   },
   {
    "id": 79,
@@ -407,14 +415,6 @@
    "name": "Barnes",
    "full_name": "Harvey Barnes",
    "team": "Newcastle",
-   "value": 3,
-   "leading": false
-  },
-  {
-   "id": 428,
-   "name": "Cunha",
-   "full_name": "Matheus Santos Carneiro da Cunha",
-   "team": "Man Utd",
    "value": 3,
    "leading": false
   }
