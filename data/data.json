@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-31T16:31:50Z",
+ "generated_at": "2026-10-31T20:47:55Z",
  "season": "2026/27",
  "gameweeks_played": 8,
  "next_gameweek": "Gameweek 9",
@@ -281,6 +281,14 @@
    "leading": false
   },
   {
+   "id": 166,
+   "name": "N.Jackson",
+   "full_name": "Nicolas Jackson",
+   "team": "Aston Villa",
+   "value": 5,
+   "leading": false
+  },
+  {
    "id": 40,
    "name": "Rogers",
    "full_name": "Morgan Rogers",
@@ -317,14 +325,6 @@
    "name": "Mbeumo",
    "full_name": "Bryan Mbeumo",
    "team": "Man Utd",
-   "value": 4,
-   "leading": false
-  },
-  {
-   "id": 166,
-   "name": "N.Jackson",
-   "full_name": "Nicolas Jackson",
-   "team": "Aston Villa",
    "value": 4,
    "leading": false
   },
