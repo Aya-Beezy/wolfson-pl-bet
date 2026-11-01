@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01T12:20:17Z",
+ "generated_at": "2026-11-01T21:29:44Z",
  "season": "2026/27",
  "gameweeks_played": 8,
  "next_gameweek": "Gameweek 9",
@@ -347,6 +347,14 @@
    "leading": true
   },
   {
+   "id": 13,
+   "name": "Rice",
+   "full_name": "Declan Rice",
+   "team": "Arsenal",
+   "value": 5,
+   "leading": false
+  },
+  {
    "id": 115,
    "name": "De Cuyper",
    "full_name": "Maxim De Cuyper",
@@ -391,14 +399,6 @@
    "name": "Palmer",
    "full_name": "Cole Palmer",
    "team": "Chelsea",
-   "value": 4,
-   "leading": false
-  },
-  {
-   "id": 13,
-   "name": "Rice",
-   "full_name": "Declan Rice",
-   "team": "Arsenal",
    "value": 4,
    "leading": false
   },
