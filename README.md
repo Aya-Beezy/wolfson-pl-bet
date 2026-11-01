@@ -80,6 +80,7 @@ must push a commit at least every 60 days until the season ends. Log each one he
 |---|---|
 | 2026-10-26 | Bharat |
 | 2026-10-26 | Monthly routine |
+| 2026-11-01 | Monthly routine |
 
 ## Running it locally
 
