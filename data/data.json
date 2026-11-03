@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-02T14:14:17Z",
+ "generated_at": "2026-11-03T00:12:10Z",
  "season": "2026/27",
  "gameweeks_played": 8,
  "next_gameweek": "Gameweek 9",
@@ -305,6 +305,14 @@
    "leading": false
   },
   {
+   "id": 249,
+   "name": "Barry",
+   "full_name": "Thierno Barry",
+   "team": "Everton",
+   "value": 4,
+   "leading": false
+  },
+  {
    "id": 399,
    "name": "Cherki",
    "full_name": "Rayan Cherki",
@@ -326,14 +334,6 @@
    "full_name": "Bryan Mbeumo",
    "team": "Man Utd",
    "value": 4,
-   "leading": false
-  },
-  {
-   "id": 129,
-   "name": "Ayari",
-   "full_name": "Yasin Ayari",
-   "team": "Brighton",
-   "value": 3,
    "leading": false
   }
  ],
