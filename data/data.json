@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-07T12:06:56Z",
+ "generated_at": "2026-11-07T21:13:49Z",
  "season": "2026/27",
  "gameweeks_played": 9,
  "next_gameweek": "Gameweek 10",
@@ -281,6 +281,14 @@
    "leading": false
   },
   {
+   "id": 399,
+   "name": "Cherki",
+   "full_name": "Rayan Cherki",
+   "team": "Man City",
+   "value": 5,
+   "leading": false
+  },
+  {
    "id": 165,
    "name": "João Pedro",
    "full_name": "João Pedro Junqueira de Jesus",
@@ -310,14 +318,6 @@
    "full_name": "Marcus Tavernier",
    "team": "Bournemouth",
    "value": 5,
-   "leading": false
-  },
-  {
-   "id": 399,
-   "name": "Cherki",
-   "full_name": "Rayan Cherki",
-   "team": "Man City",
-   "value": 4,
    "leading": false
   },
   {
