@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-08T12:27:41Z",
+ "generated_at": "2026-11-08T21:28:50Z",
  "season": "2026/27",
  "gameweeks_played": 9,
  "next_gameweek": "Gameweek 10",
@@ -265,6 +265,14 @@
    "leading": true
   },
   {
+   "id": 379,
+   "name": "Isak",
+   "full_name": "Alexander Isak",
+   "team": "Liverpool",
+   "value": 7,
+   "leading": false
+  },
+  {
    "id": 249,
    "name": "Barry",
    "full_name": "Thierno Barry",
@@ -273,10 +281,10 @@
    "leading": false
   },
   {
-   "id": 379,
-   "name": "Isak",
-   "full_name": "Alexander Isak",
-   "team": "Liverpool",
+   "id": 166,
+   "name": "N.Jackson",
+   "full_name": "Nicolas Jackson",
+   "team": "Aston Villa",
    "value": 6,
    "leading": false
   },
@@ -289,18 +297,18 @@
    "leading": false
   },
   {
-   "id": 165,
-   "name": "João Pedro",
-   "full_name": "João Pedro Junqueira de Jesus",
-   "team": "Chelsea",
+   "id": 79,
+   "name": "Evanilson",
+   "full_name": "Francisco Evanilson de Lima Barbosa",
+   "team": "Bournemouth",
    "value": 5,
    "leading": false
   },
   {
-   "id": 166,
-   "name": "N.Jackson",
-   "full_name": "Nicolas Jackson",
-   "team": "Aston Villa",
+   "id": 165,
+   "name": "João Pedro",
+   "full_name": "João Pedro Junqueira de Jesus",
+   "team": "Chelsea",
    "value": 5,
    "leading": false
   },
@@ -321,17 +329,9 @@
    "leading": false
   },
   {
-   "id": 79,
-   "name": "Evanilson",
-   "full_name": "Francisco Evanilson de Lima Barbosa",
-   "team": "Bournemouth",
-   "value": 4,
-   "leading": false
-  },
-  {
-   "id": 427,
-   "name": "Mbeumo",
-   "full_name": "Bryan Mbeumo",
+   "id": 426,
+   "name": "B.Fernandes",
+   "full_name": "Bruno Borges Fernandes",
    "team": "Man Utd",
    "value": 4,
    "leading": false
@@ -352,6 +352,22 @@
    "full_name": "Declan Rice",
    "team": "Arsenal",
    "value": 5,
+   "leading": false
+  },
+  {
+   "id": 366,
+   "name": "Wirtz",
+   "full_name": "Florian Wirtz",
+   "team": "Liverpool",
+   "value": 5,
+   "leading": false
+  },
+  {
+   "id": 428,
+   "name": "Cunha",
+   "full_name": "Matheus Santos Carneiro da Cunha",
+   "team": "Man Utd",
+   "value": 4,
    "leading": false
   },
   {
@@ -387,35 +403,19 @@
    "leading": false
   },
   {
+   "id": 45,
+   "name": "McGinn",
+   "full_name": "John McGinn",
+   "team": "Aston Villa",
+   "value": 4,
+   "leading": false
+  },
+  {
    "id": 237,
    "name": "Ndiaye",
    "full_name": "Iliman Ndiaye",
    "team": "Man City",
    "value": 4,
-   "leading": false
-  },
-  {
-   "id": 154,
-   "name": "Palmer",
-   "full_name": "Cole Palmer",
-   "team": "Chelsea",
-   "value": 4,
-   "leading": false
-  },
-  {
-   "id": 366,
-   "name": "Wirtz",
-   "full_name": "Florian Wirtz",
-   "team": "Liverpool",
-   "value": 4,
-   "leading": false
-  },
-  {
-   "id": 453,
-   "name": "Barnes",
-   "full_name": "Harvey Barnes",
-   "team": "Newcastle",
-   "value": 3,
    "leading": false
   }
  ],
