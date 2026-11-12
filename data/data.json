@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T14:16:46Z",
+ "generated_at": "2026-11-12T14:33:25Z",
  "season": "2026/27",
  "gameweeks_played": 10,
  "next_gameweek": "Gameweek 11",
@@ -420,8 +420,8 @@
   }
  ],
  "manager_sacked": {
-  "name": null,
-  "date": null
+  "name": "Carrick",
+  "date": "2026-11-12"
  },
  "leaderboard": [
   {
@@ -522,7 +522,7 @@
      "category": "manager_sacked",
      "pick": "Arbeloa",
      "points": 0,
-     "status": "pending"
+     "status": "missed"
     }
    ],
    "total": 15,
@@ -626,7 +626,7 @@
      "category": "manager_sacked",
      "pick": "Iraola",
      "points": 0,
-     "status": "pending"
+     "status": "missed"
     }
    ],
    "total": 8,
@@ -730,7 +730,7 @@
      "category": "manager_sacked",
      "pick": "Jakirovic",
      "points": 0,
-     "status": "pending"
+     "status": "missed"
     }
    ],
    "total": 7,
@@ -834,7 +834,7 @@
      "category": "manager_sacked",
      "pick": "Lampard",
      "points": 0,
-     "status": "pending"
+     "status": "missed"
     }
    ],
    "total": 7,
@@ -938,7 +938,7 @@
      "category": "manager_sacked",
      "pick": "Glasner",
      "points": 0,
-     "status": "pending"
+     "status": "missed"
     }
    ],
    "total": 7,
