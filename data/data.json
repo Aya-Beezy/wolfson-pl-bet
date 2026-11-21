@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T13:54:37Z",
+ "generated_at": "2026-11-21T22:35:39Z",
  "season": "2026/27",
  "gameweeks_played": 10,
  "next_gameweek": "Gameweek 11",
@@ -281,6 +281,14 @@
    "leading": false
   },
   {
+   "id": 79,
+   "name": "Evanilson",
+   "full_name": "Francisco Evanilson de Lima Barbosa",
+   "team": "Bournemouth",
+   "value": 6,
+   "leading": false
+  },
+  {
    "id": 166,
    "name": "N.Jackson",
    "full_name": "Nicolas Jackson",
@@ -293,14 +301,6 @@
    "name": "Cherki",
    "full_name": "Rayan Cherki",
    "team": "Man City",
-   "value": 5,
-   "leading": false
-  },
-  {
-   "id": 79,
-   "name": "Evanilson",
-   "full_name": "Francisco Evanilson de Lima Barbosa",
-   "team": "Bournemouth",
    "value": 5,
    "leading": false
   },
