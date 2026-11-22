@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T13:47:01Z",
+ "generated_at": "2026-11-22T22:58:24Z",
  "season": "2026/27",
  "gameweeks_played": 10,
  "next_gameweek": "Gameweek 11",
@@ -347,6 +347,14 @@
    "leading": true
   },
   {
+   "id": 366,
+   "name": "Wirtz",
+   "full_name": "Florian Wirtz",
+   "team": "Liverpool",
+   "value": 6,
+   "leading": true
+  },
+  {
    "id": 13,
    "name": "Rice",
    "full_name": "Declan Rice",
@@ -355,11 +363,19 @@
    "leading": false
   },
   {
-   "id": 366,
-   "name": "Wirtz",
-   "full_name": "Florian Wirtz",
+   "id": 627,
+   "name": "Barcola",
+   "full_name": "Bradley Barcola",
    "team": "Liverpool",
-   "value": 5,
+   "value": 4,
+   "leading": false
+  },
+  {
+   "id": 286,
+   "name": "Belloumi",
+   "full_name": "Mohamed Belloumi",
+   "team": "Hull City",
+   "value": 4,
    "leading": false
   },
   {
@@ -399,22 +415,6 @@
    "name": "Kostoulas",
    "full_name": "Charalampos Kostoulas",
    "team": "Brighton",
-   "value": 4,
-   "leading": false
-  },
-  {
-   "id": 45,
-   "name": "McGinn",
-   "full_name": "John McGinn",
-   "team": "Aston Villa",
-   "value": 4,
-   "leading": false
-  },
-  {
-   "id": 237,
-   "name": "Ndiaye",
-   "full_name": "Iliman Ndiaye",
-   "team": "Man City",
    "value": 4,
    "leading": false
   }
