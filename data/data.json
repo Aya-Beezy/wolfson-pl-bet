@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T16:51:32Z",
+ "generated_at": "2026-11-24T03:37:29Z",
  "season": "2026/27",
  "gameweeks_played": 10,
  "next_gameweek": "Gameweek 11",
@@ -363,6 +363,14 @@
    "leading": false
   },
   {
+   "id": 105,
+   "name": "Anthony",
+   "full_name": "Jaidon Anthony",
+   "team": "Brentford",
+   "value": 4,
+   "leading": false
+  },
+  {
    "id": 627,
    "name": "Barcola",
    "full_name": "Bradley Barcola",
@@ -407,14 +415,6 @@
    "name": "Gvardiol",
    "full_name": "Joško Gvardiol",
    "team": "Man City",
-   "value": 4,
-   "leading": false
-  },
-  {
-   "id": 138,
-   "name": "Kostoulas",
-   "full_name": "Charalampos Kostoulas",
-   "team": "Brighton",
    "value": 4,
    "leading": false
   }
