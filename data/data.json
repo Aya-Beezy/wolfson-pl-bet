@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-11-24T03:37:29Z",
+ "generated_at": "2026-11-24T16:43:16Z",
  "season": "2026/27",
- "gameweeks_played": 10,
- "next_gameweek": "Gameweek 11",
+ "gameweeks_played": 11,
+ "next_gameweek": "Gameweek 12",
  "rules": {
   "champion_exact": 2,
   "top6_exact": 9,
@@ -16,243 +16,243 @@
  "table": [
   {
    "team": "Arsenal",
-   "played": 10,
+   "played": 11,
    "won": 9,
-   "drawn": 0,
+   "drawn": 1,
    "lost": 1,
-   "gf": 15,
-   "ga": 5,
-   "pts": 27,
+   "gf": 17,
+   "ga": 7,
+   "pts": 28,
    "pos": 1,
    "gd": 10
   },
   {
    "team": "Brighton",
-   "played": 10,
+   "played": 11,
    "won": 7,
    "drawn": 1,
-   "lost": 2,
+   "lost": 3,
    "gf": 26,
-   "ga": 7,
+   "ga": 9,
    "pts": 22,
    "pos": 2,
-   "gd": 19
+   "gd": 17
   },
   {
    "team": "Man City",
-   "played": 10,
+   "played": 11,
    "won": 7,
-   "drawn": 0,
+   "drawn": 1,
    "lost": 3,
-   "gf": 21,
-   "ga": 13,
-   "pts": 21,
+   "gf": 22,
+   "ga": 14,
+   "pts": 22,
    "pos": 3,
    "gd": 8
   },
   {
    "team": "Liverpool",
-   "played": 10,
-   "won": 5,
+   "played": 11,
+   "won": 6,
    "drawn": 3,
    "lost": 2,
-   "gf": 14,
+   "gf": 18,
    "ga": 10,
-   "pts": 18,
+   "pts": 21,
    "pos": 4,
-   "gd": 4
-  },
-  {
-   "team": "Chelsea",
-   "played": 10,
-   "won": 5,
-   "drawn": 1,
-   "lost": 4,
-   "gf": 19,
-   "ga": 16,
-   "pts": 16,
-   "pos": 5,
-   "gd": 3
-  },
-  {
-   "team": "Everton",
-   "played": 10,
-   "won": 4,
-   "drawn": 4,
-   "lost": 2,
-   "gf": 12,
-   "ga": 10,
-   "pts": 16,
-   "pos": 6,
-   "gd": 2
+   "gd": 8
   },
   {
    "team": "Bournemouth",
-   "played": 10,
-   "won": 4,
+   "played": 11,
+   "won": 5,
    "drawn": 3,
    "lost": 3,
-   "gf": 16,
+   "gf": 18,
    "ga": 14,
-   "pts": 15,
-   "pos": 7,
-   "gd": 2
+   "pts": 18,
+   "pos": 5,
+   "gd": 4
   },
   {
    "team": "Brentford",
-   "played": 10,
-   "won": 3,
+   "played": 11,
+   "won": 4,
    "drawn": 5,
    "lost": 2,
-   "gf": 16,
+   "gf": 20,
    "ga": 11,
-   "pts": 14,
-   "pos": 8,
-   "gd": 5
+   "pts": 17,
+   "pos": 6,
+   "gd": 9
   },
   {
    "team": "Leeds",
-   "played": 10,
-   "won": 3,
+   "played": 11,
+   "won": 4,
    "drawn": 5,
    "lost": 2,
-   "gf": 10,
-   "ga": 8,
-   "pts": 14,
+   "gf": 14,
+   "ga": 9,
+   "pts": 17,
+   "pos": 7,
+   "gd": 5
+  },
+  {
+   "team": "Chelsea",
+   "played": 11,
+   "won": 5,
+   "drawn": 1,
+   "lost": 5,
+   "gf": 20,
+   "ga": 20,
+   "pts": 16,
+   "pos": 8,
+   "gd": 0
+  },
+  {
+   "team": "Everton",
+   "played": 11,
+   "won": 4,
+   "drawn": 4,
+   "lost": 3,
+   "gf": 12,
+   "ga": 14,
+   "pts": 16,
    "pos": 9,
+   "gd": -2
+  },
+  {
+   "team": "Spurs",
+   "played": 11,
+   "won": 4,
+   "drawn": 3,
+   "lost": 4,
+   "gf": 12,
+   "ga": 11,
+   "pts": 15,
+   "pos": 10,
+   "gd": 1
+  },
+  {
+   "team": "Hull City",
+   "played": 11,
+   "won": 3,
+   "drawn": 5,
+   "lost": 3,
+   "gf": 13,
+   "ga": 11,
+   "pts": 14,
+   "pos": 11,
    "gd": 2
   },
   {
    "team": "Aston Villa",
-   "played": 10,
+   "played": 11,
    "won": 3,
-   "drawn": 4,
+   "drawn": 5,
    "lost": 3,
    "gf": 14,
    "ga": 17,
-   "pts": 13,
-   "pos": 10,
-   "gd": -3
-  },
-  {
-   "team": "Spurs",
-   "played": 10,
-   "won": 3,
-   "drawn": 3,
-   "lost": 4,
-   "gf": 10,
-   "ga": 11,
-   "pts": 12,
-   "pos": 11,
-   "gd": -1
-  },
-  {
-   "team": "Newcastle",
-   "played": 10,
-   "won": 3,
-   "drawn": 3,
-   "lost": 4,
-   "gf": 13,
-   "ga": 16,
-   "pts": 12,
+   "pts": 14,
    "pos": 12,
    "gd": -3
   },
   {
-   "team": "Hull City",
-   "played": 10,
-   "won": 2,
-   "drawn": 5,
-   "lost": 3,
-   "gf": 11,
-   "ga": 11,
-   "pts": 11,
+   "team": "Newcastle",
+   "played": 11,
+   "won": 3,
+   "drawn": 4,
+   "lost": 4,
+   "gf": 15,
+   "ga": 18,
+   "pts": 13,
    "pos": 13,
-   "gd": 0
+   "gd": -3
   },
   {
-   "team": "Ipswich Town",
-   "played": 10,
-   "won": 3,
-   "drawn": 2,
-   "lost": 5,
-   "gf": 15,
-   "ga": 20,
-   "pts": 11,
+   "team": "Coventry City",
+   "played": 11,
+   "won": 4,
+   "drawn": 0,
+   "lost": 7,
+   "gf": 13,
+   "ga": 21,
+   "pts": 12,
    "pos": 14,
-   "gd": -5
+   "gd": -8
   },
   {
    "team": "Fulham",
-   "played": 10,
+   "played": 11,
    "won": 2,
-   "drawn": 4,
+   "drawn": 5,
    "lost": 4,
-   "gf": 10,
-   "ga": 12,
-   "pts": 10,
+   "gf": 11,
+   "ga": 13,
+   "pts": 11,
    "pos": 15,
    "gd": -2
   },
   {
-   "team": "Nott'm Forest",
-   "played": 10,
-   "won": 2,
-   "drawn": 3,
-   "lost": 5,
-   "gf": 9,
-   "ga": 13,
-   "pts": 9,
+   "team": "Ipswich Town",
+   "played": 11,
+   "won": 3,
+   "drawn": 2,
+   "lost": 6,
+   "gf": 15,
+   "ga": 22,
+   "pts": 11,
    "pos": 16,
-   "gd": -4
+   "gd": -7
   },
   {
-   "team": "Coventry City",
-   "played": 10,
-   "won": 3,
-   "drawn": 0,
-   "lost": 7,
-   "gf": 10,
-   "ga": 19,
+   "team": "Nott'm Forest",
+   "played": 11,
+   "won": 2,
+   "drawn": 3,
+   "lost": 6,
+   "gf": 9,
+   "ga": 15,
    "pts": 9,
    "pos": 17,
+   "gd": -6
+  },
+  {
+   "team": "Sunderland",
+   "played": 11,
+   "won": 2,
+   "drawn": 3,
+   "lost": 6,
+   "gf": 8,
+   "ga": 17,
+   "pts": 9,
+   "pos": 18,
    "gd": -9
   },
   {
    "team": "Man Utd",
-   "played": 10,
+   "played": 11,
    "won": 1,
    "drawn": 5,
-   "lost": 4,
+   "lost": 5,
    "gf": 14,
-   "ga": 19,
-   "pts": 8,
-   "pos": 18,
-   "gd": -5
-  },
-  {
-   "team": "Sunderland",
-   "played": 10,
-   "won": 2,
-   "drawn": 2,
-   "lost": 6,
-   "gf": 8,
-   "ga": 17,
+   "ga": 23,
    "pts": 8,
    "pos": 19,
    "gd": -9
   },
   {
    "team": "Crystal Palace",
-   "played": 10,
+   "played": 11,
    "won": 2,
    "drawn": 1,
-   "lost": 7,
-   "gf": 10,
-   "ga": 24,
+   "lost": 8,
+   "gf": 12,
+   "ga": 27,
    "pts": 7,
    "pos": 20,
-   "gd": -14
+   "gd": -15
   }
  ],
  "top_scorers": [
@@ -427,7 +427,7 @@
   {
    "player": "Majid",
    "breakdown": {
-    "top6": 13,
+    "top6": 12,
     "relegation": 0,
     "top_scorer": 2,
     "top_assists": 0,
@@ -446,15 +446,15 @@
      "category": "top6",
      "slot": 2,
      "pick": "Chelsea",
-     "actual": 5,
-     "points": 1,
-     "status": "near"
+     "actual": 8,
+     "points": 0,
+     "status": "miss"
     },
     {
      "category": "top6",
      "slot": 3,
      "pick": "Man Utd",
-     "actual": 18,
+     "actual": 19,
      "points": 0,
      "status": "miss"
     },
@@ -478,7 +478,7 @@
      "category": "top6",
      "slot": 6,
      "pick": "Spurs",
-     "actual": 11,
+     "actual": 10,
      "points": 0,
      "status": "miss"
     },
@@ -486,7 +486,7 @@
      "category": "relegation",
      "slot": 18,
      "pick": "Hull City",
-     "actual": 13,
+     "actual": 11,
      "points": 0,
      "status": "miss"
     },
@@ -494,7 +494,7 @@
      "category": "relegation",
      "slot": 19,
      "pick": "Leeds",
-     "actual": 9,
+     "actual": 7,
      "points": 0,
      "status": "miss"
     },
@@ -502,7 +502,7 @@
      "category": "relegation",
      "slot": 20,
      "pick": "Ipswich Town",
-     "actual": 14,
+     "actual": 16,
      "points": 0,
      "status": "miss"
     },
@@ -525,13 +525,13 @@
      "status": "missed"
     }
    ],
-   "total": 15,
+   "total": 14,
    "rank": 1
   },
   {
    "player": "Bharat",
    "breakdown": {
-    "top6": 5,
+    "top6": 4,
     "relegation": 3,
     "top_scorer": 0,
     "top_assists": 0,
@@ -550,15 +550,15 @@
      "category": "top6",
      "slot": 2,
      "pick": "Chelsea",
-     "actual": 5,
-     "points": 1,
-     "status": "near"
+     "actual": 8,
+     "points": 0,
+     "status": "miss"
     },
     {
      "category": "top6",
      "slot": 3,
      "pick": "Man Utd",
-     "actual": 18,
+     "actual": 19,
      "points": 0,
      "status": "miss"
     },
@@ -574,7 +574,7 @@
      "category": "top6",
      "slot": 5,
      "pick": "Spurs",
-     "actual": 11,
+     "actual": 10,
      "points": 0,
      "status": "miss"
     },
@@ -598,7 +598,7 @@
      "category": "relegation",
      "slot": 19,
      "pick": "Ipswich Town",
-     "actual": 14,
+     "actual": 16,
      "points": 0,
      "status": "miss"
     },
@@ -606,7 +606,7 @@
      "category": "relegation",
      "slot": 20,
      "pick": "Hull City",
-     "actual": 13,
+     "actual": 11,
      "points": 0,
      "status": "miss"
     },
@@ -629,13 +629,13 @@
      "status": "missed"
     }
    ],
-   "total": 8,
+   "total": 7,
    "rank": 2
   },
   {
    "player": "Akin",
    "breakdown": {
-    "top6": 5,
+    "top6": 4,
     "relegation": 0,
     "top_scorer": 2,
     "top_assists": 0,
@@ -654,7 +654,7 @@
      "category": "top6",
      "slot": 2,
      "pick": "Man Utd",
-     "actual": 18,
+     "actual": 19,
      "points": 0,
      "status": "miss"
     },
@@ -678,7 +678,7 @@
      "category": "top6",
      "slot": 5,
      "pick": "Spurs",
-     "actual": 11,
+     "actual": 10,
      "points": 0,
      "status": "miss"
     },
@@ -686,15 +686,15 @@
      "category": "top6",
      "slot": 6,
      "pick": "Chelsea",
-     "actual": 5,
-     "points": 1,
-     "status": "near"
+     "actual": 8,
+     "points": 0,
+     "status": "miss"
     },
     {
      "category": "relegation",
      "slot": 18,
      "pick": "Ipswich Town",
-     "actual": 14,
+     "actual": 16,
      "points": 0,
      "status": "miss"
     },
@@ -702,7 +702,7 @@
      "category": "relegation",
      "slot": 19,
      "pick": "Hull City",
-     "actual": 13,
+     "actual": 11,
      "points": 0,
      "status": "miss"
     },
@@ -710,7 +710,7 @@
      "category": "relegation",
      "slot": 20,
      "pick": "Coventry City",
-     "actual": 17,
+     "actual": 14,
      "points": 0,
      "status": "miss"
     },
@@ -733,13 +733,13 @@
      "status": "missed"
     }
    ],
-   "total": 7,
+   "total": 6,
    "rank": 3
   },
   {
    "player": "Tola",
    "breakdown": {
-    "top6": 5,
+    "top6": 4,
     "relegation": 0,
     "top_scorer": 2,
     "top_assists": 0,
@@ -766,7 +766,7 @@
      "category": "top6",
      "slot": 3,
      "pick": "Man Utd",
-     "actual": 18,
+     "actual": 19,
      "points": 0,
      "status": "miss"
     },
@@ -774,15 +774,15 @@
      "category": "top6",
      "slot": 4,
      "pick": "Chelsea",
-     "actual": 5,
-     "points": 1,
-     "status": "near"
+     "actual": 8,
+     "points": 0,
+     "status": "miss"
     },
     {
      "category": "top6",
      "slot": 5,
      "pick": "Spurs",
-     "actual": 11,
+     "actual": 10,
      "points": 0,
      "status": "miss"
     },
@@ -798,7 +798,7 @@
      "category": "relegation",
      "slot": 18,
      "pick": "Coventry City",
-     "actual": 17,
+     "actual": 14,
      "points": 0,
      "status": "miss"
     },
@@ -806,7 +806,7 @@
      "category": "relegation",
      "slot": 19,
      "pick": "Hull City",
-     "actual": 13,
+     "actual": 11,
      "points": 0,
      "status": "miss"
     },
@@ -814,7 +814,7 @@
      "category": "relegation",
      "slot": 20,
      "pick": "Ipswich Town",
-     "actual": 14,
+     "actual": 16,
      "points": 0,
      "status": "miss"
     },
@@ -837,13 +837,13 @@
      "status": "missed"
     }
    ],
-   "total": 7,
+   "total": 6,
    "rank": 3
   },
   {
    "player": "Wax",
    "breakdown": {
-    "top6": 5,
+    "top6": 4,
     "relegation": 0,
     "top_scorer": 2,
     "top_assists": 0,
@@ -862,9 +862,9 @@
      "category": "top6",
      "slot": 2,
      "pick": "Chelsea",
-     "actual": 5,
-     "points": 1,
-     "status": "near"
+     "actual": 8,
+     "points": 0,
+     "status": "miss"
     },
     {
      "category": "top6",
@@ -886,7 +886,7 @@
      "category": "top6",
      "slot": 5,
      "pick": "Man Utd",
-     "actual": 18,
+     "actual": 19,
      "points": 0,
      "status": "miss"
     },
@@ -894,7 +894,7 @@
      "category": "top6",
      "slot": 6,
      "pick": "Spurs",
-     "actual": 11,
+     "actual": 10,
      "points": 0,
      "status": "miss"
     },
@@ -910,7 +910,7 @@
      "category": "relegation",
      "slot": 19,
      "pick": "Ipswich Town",
-     "actual": 14,
+     "actual": 16,
      "points": 0,
      "status": "miss"
     },
@@ -918,7 +918,7 @@
      "category": "relegation",
      "slot": 20,
      "pick": "Hull City",
-     "actual": 13,
+     "actual": 11,
      "points": 0,
      "status": "miss"
     },
@@ -941,7 +941,7 @@
      "status": "missed"
     }
    ],
-   "total": 7,
+   "total": 6,
    "rank": 3
   }
  ],
